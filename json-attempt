@@ -1,0 +1,149 @@
+[
+    {
+        "nameOfBeer": "Loch Down Scotch Ale",
+        "locationMade": "Kalamazoo",
+        "type": "Ale",
+        "abv": 0.08,
+        "brewery": "Arcadia Brewing Company",
+        "ibu": 7,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bollywood Blonde Ale",
+        "locationMade": "Ann Arbor, MI",
+        "type": "Ale",
+        "abv": 0.06,
+        "brewery": "ABC Brewpub",
+        "ibu": 7,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Hooligan",
+        "locationMade": "Atlanta, GA",
+        "type": "Ale",
+        "abv": 0.055,
+        "brewery": "Jolly Pumpkin",
+        "ibu": 6,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Vanilla Java Porter",
+        "locationMade": "Detroit, MI",
+        "type": "Porter",
+        "abv": 0.05,
+        "brewery": "Atwater Brewery",
+        "ibu": 13,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Ninja Chicken Pale Ale",
+        "locationMade": "Warren, MI",
+        "type": "Pale Ale",
+        "abv": 0.056,
+        "brewery": "Falling Down Beer Company",
+        "ibu": 44,
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Mother Cluster",
+        "locationMade": "Warren, MI",
+        "type": "Cream Ale",
+        "abv": 0.052,
+        "brewery": "Falling Down Beer Company",
+        "ibu": 22,
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Two Hearted Ale",
+        "locationMade": "Galesburg, MI",
+        "type": "Pale Ale",
+        "abv": 0.07,
+        "brewery": "Bell's Brewery",
+        "ibu": 55,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "2 Biggie Smaller",
+        "locationMade": "Detroit, MI",
+        "type": "Pale Ale",
+        "abv": 0.11,
+        "brewery": "Batch Brewing Company",
+        "ibu": 70,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Ghettoblaster",
+        "locationMade": "Detroit, MI",
+        "type": "Mild Ale",
+        "abv": 0.038,
+        "brewery": "Motor City Brewing Works",
+        "ibu": 15,
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Amber Ale",
+        "locationMade": "Galesburg, MI",
+        "type": "Ale",
+        "abv": 0.058,
+        "brewery": "Bell's Brewery",
+        "ibu": 1,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "D-Light",
+        "locationMade": "Detroit, MI",
+        "type": "Kölsch",
+        "abv": 0.045,
+        "brewery": "Atwater Brewery",
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Big Red Coq",
+        "locationMade": "Grand Rapids, MI",
+        "type": "Red Ale",
+        "abv": 0.0625,
+        "brewery": "Brewery Vivant",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Farm Hand",
+        "locationMade": "Grand Rapids, MI",
+        "type": "Farmhouse Ale",
+        "abv": 0.055,
+        "brewery": "Brewery Vivant",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Rauchbock",
+        "locationMade": "Detroit, MI",
+        "type": "Rauchbier",
+        "abv": 0.062,
+        "brewery": "Batch Brewing Company",
+        "ibu": 10
+    },
+    {
+        "nameOfBeer": "The Audacity",
+        "locationMade": "Detroit, MI",
+        "type": "Kölsch",
+        "abv": 0.038,
+        "brewery": "Batch Brewing Company",
+        "ibu": 9
+    },
+    {
+        "nameOfBeer": "Petite Pamplemousse",
+        "locationMade": "Detroit, MI"
+    },
+    {
+        "nameOfBeer": "Boffo Brown Ale",
+        "locationMade": "Marshall, MI",
+        "type": "Brown Ale",
+        "abv": 0.07,
+        "brewery": "Dark Horse Brewing Co.",
+        "ibu": 26,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Crooked Tree IPA",
+        "locationMade": "Marshall, MI"
+    }
+]
