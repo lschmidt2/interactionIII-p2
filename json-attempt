@@ -369,7 +369,7 @@
     },
     {
         "nameOfBeer": "The Poet",
-        "locationMade": "Holland, Mi",
+        "locationMade": "Holland, MI",
         "type": "Stout",
         "abv": 5.2,
         "brewery": "New Holland Brewing Company",
@@ -465,7 +465,7 @@
         "color": "Light"
     },
     {
-        "nameOfBeer": "Mary mangolene",
+        "nameOfBeer": "Mary Mangolene",
         "locationMade": "Toledo, OH",
         "type": "Fruit",
         "abv": 5,
@@ -488,6 +488,466 @@
         "abv": 11,
         "brewery": "Batch Brewing Company",
         "ibu": 70,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Kentucky Rickhouse \nSeries No. 6 Tangerine Cream",
+        "locationMade": "Lexington, KY",
+        "type": "Cream Ale",
+        "abv": 5.5,
+        "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Bean Flicker Nitro",
+        "locationMade": "Grand Haven, MI",
+        "type": "Blonde Ale",
+        "abv": 4.5,
+        "brewery": "Odd Side Ales",
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Q-Stew",
+        "locationMade": "Comstock Park, MI",
+        "type": "Lager",
+        "abv": 3.6,
+        "brewery": "Perrin Brewing Co",
+        "ibu": 25,
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Bluewater Light",
+        "locationMade": "Ann Arbor, MI",
+        "type": "Lager",
+        "abv": 4.3,
+        "brewery": "Wolverine State Brewing Co",
+        "ibu": 12,
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "60 Minute IPA",
+        "locationMade": "Milton, DE",
+        "type": "IPA",
+        "abv": 6,
+        "brewery": "Dogfish Head Craft Brewery",
+        "ibu": 60,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Nitro Pale Ale",
+        "locationMade": "Grand Rapids, MI",
+        "type": "Pale Ale",
+        "abv": 5.4,
+        "brewery": "Founders Brewing Co.",
+        "ibu": 35,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "M is for Murker",
+        "locationMade": "San Diego, CA",
+        "type": "IPA",
+        "abv": 7,
+        "brewery": "Mikkeller Brewing San Diego",
+        "ibu": 65,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Unfiltered Wheat Beer",
+        "locationMade": "Kansas City, MO",
+        "type": "Pale Ale",
+        "abv": 4.4,
+        "brewery": "Boulevard Brewing Co",
+        "ibu": 14,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "We be Jammin'",
+        "locationMade": "Grand Haven, MI",
+        "type": "Pale Ale",
+        "abv": 4.5,
+        "brewery": "Odd Sides Ale",
+        "ibu": 28,
+        "color": "Red"
+    },
+    {
+        "nameOfBeer": "Gin Barrel Agged Mr. Orange",
+        "locationMade": "Bridgman, MI",
+        "type": "Witbier",
+        "abv": 5.2,
+        "brewery": "Tapistry Brewing",
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Deliverance",
+        "locationMade": "Kalamazoo, MI",
+        "type": "Brown Ale",
+        "abv": 9,
+        "brewery": "Arcadia Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Indian Brown Ale",
+        "locationMade": "Milton, DE",
+        "type": "Brown Ale",
+        "abv": 7.2,
+        "brewery": "Dogfish Head Craft Brewery",
+        "ibu": 50,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Borealis Broo",
+        "locationMade": "Houghton, MI",
+        "type": "Red Ale",
+        "abv": 5.1,
+        "brewery": "Keweenaw Brewing Company",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "BBA Maple Brown Ale",
+        "locationMade": "Rochester, MI",
+        "type": "Brown Ale",
+        "abv": 6.5,
+        "brewery": "Rochester Mills Beer Co.",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Cafe Brown",
+        "locationMade": "Douglas, MI",
+        "type": "Brown Ale",
+        "abv": 5.5,
+        "brewery": "Saugatuck Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Autumn Ale",
+        "locationMade": "Bellaire, MI",
+        "type": "Strong Bitter",
+        "abv": 5.9,
+        "brewery": "Short's Brewing Company",
+        "ibu": 45,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Huge Arker",
+        "locationMade": "Boonville, CA",
+        "type": "Stout",
+        "abv": 13.5,
+        "brewery": "Anderson Valley Brewing Company",
+        "ibu": 88,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Barrel Aged Shipwreck Porter",
+        "locationMade": "Kalamazoo, MI",
+        "type": "Porter",
+        "abv": 12,
+        "brewery": "Arcadia Brewing Company",
+        "ibu": 50,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Uncle Jacob's Stout",
+        "locationMade": "Boulder, CO",
+        "type": "Stout",
+        "abv": 17.1,
+        "brewery": "Avery Brewing Co",
+        "ibu": 65,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Willett Bourbon \nBarrel Aged Sea Monster",
+        "locationMade": "San Diego, CA",
+        "type": "Stout",
+        "abv": 12.3,
+        "brewery": "Ballast Point Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Traverse City Whiskey \nBarrel Aged 30th \nAnniversary Ale",
+        "locationMade": "Comstock, MI",
+        "type": "Stout",
+        "abv": 14.1,
+        "brewery": "Bell's Brewery",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Tsar",
+        "locationMade": "Buxton, Derbyshire",
+        "type": "Stout",
+        "abv": 9.5,
+        "brewery": "Buxton Brewery",
+        "ibu": 80,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bourbon Barrel Plead the\n5th Imperial Stout",
+        "locationMade": "Marshall, MI",
+        "type": "Stout",
+        "abv": 11,
+        "brewery": "Dark Horse Brewing Co.",
+        "ibu": 65,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Oak-Aged Vanilla World Wide\nStout",
+        "locationMade": "Milton, DE",
+        "type": "Stout",
+        "abv": 16,
+        "brewery": "Dogfish Head Craft Brewery",
+        "ibu": 70,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Siracusa Nera",
+        "locationMade": "Milton, DE",
+        "type": "Stout",
+        "abv": 10,
+        "brewery": "Dogfish Head Craft Brewery",
+        "ibu": 60,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "KBS",
+        "locationMade": "Grand Rapids, MI",
+        "type": "Stout",
+        "abv": 11.8,
+        "brewery": "Founders Brewing Co.",
+        "ibu": 70,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Delusion",
+        "locationMade": "Sawyer, MI",
+        "type": "Stout",
+        "abv": 11.7,
+        "brewery": "Greenbush Brewing Company",
+        "ibu": 88,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "High West-ified Imperial\nCoffee Stout",
+        "locationMade": "Petaluma, CA",
+        "type": "Stout",
+        "abv": 12.2,
+        "brewery": "Lagunitas Brewing Company",
+        "ibu": 39,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bourbon Barrel Total Eclipse",
+        "locationMade": "Toledo, OH",
+        "type": "Stout",
+        "abv": 10.2,
+        "brewery": "Maumee Bay Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "BBA Beer Geek Brunch",
+        "locationMade": "San Diego, CA",
+        "type": "Stout",
+        "abv": 10.9,
+        "brewery": "Mikkeller Brewing San Diego",
+        "ibu": 60,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Dragon's Milk",
+        "locationMade": "Holland, MI",
+        "type": "Stout",
+        "abv": 11,
+        "brewery": "New Holland Brewing Company",
+        "ibu": 31,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Tripper Noche",
+        "locationMade": "Holland, MI",
+        "type": "Stout",
+        "abv": 12.1,
+        "brewery": "New Holland Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bourbon Barrel Aged\nImperial Mayan Mocha",
+        "locationMade": "Grand Haven, MI",
+        "type": "Stout",
+        "abv": 10,
+        "brewery": "Odd Side Ales",
+        "ibu": 69,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "The Nightman Leaveth",
+        "locationMade": "Grand Haven, MI",
+        "type": "Stout",
+        "abv": 11,
+        "brewery": "Odd Side Ales",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Ten Fidy",
+        "locationMade": "Longmont, CO",
+        "type": "Stout",
+        "abv": 10.5,
+        "brewery": "Oskar Blues Brewery",
+        "ibu": 65,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bullet Tooth",
+        "locationMade": "Comstock Park, MI",
+        "type": "Stout",
+        "abv": 9.5,
+        "brewery": "Perrin Brewing Co",
+        "ibu": 60,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Malted Milk Ball",
+        "locationMade": "Comstock Park, MI",
+        "type": "Porter",
+        "abv": 11.3,
+        "brewery": "Perrin Brewing Co",
+        "ibu": 32,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "No Rules",
+        "locationMade": "Comstock Park, MI",
+        "type": "Porter",
+        "abv": 15,
+        "brewery": "Perrin Brewing Co",
+        "ibu": 56,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Wooward Bold Coffee Stout",
+        "locationMade": "Rochester, MI",
+        "type": "Stout",
+        "abv": 5,
+        "brewery": "Rochester Mills Beer Co",
+        "ibu": 19,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Kentucky Bourbon Barrel Ale",
+        "locationMade": "Lexington, KY",
+        "type": "Strong Ale",
+        "abv": 8.2,
+        "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
+        "ibu": 15,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Barrel Aged Cereal Killer",
+        "locationMade": "Lexington, KY",
+        "type": "Strong Ale",
+        "abv": 12,
+        "brewery": "Arcedia Brewing Company",
+        "ibu": 70,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Chinook",
+        "locationMade": "Holland, MI",
+        "type": "Strong Ale",
+        "abv": 8,
+        "brewery": "Big Lake Brewing",
+        "ibu": 80,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Rye on Rye on Rye",
+        "locationMade": "Kansas City, MO",
+        "type": "Strong Ale",
+        "abv": 14.6,
+        "brewery": "Boulevard Brewing Co",
+        "ibu": 33,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "2016 Backwoods Bastard",
+        "locationMade": "Grand Rapids, MI",
+        "type": "Strong Ale ",
+        "abv": 11.2,
+        "brewery": "Founders Brewing Co.",
+        "ibu": 50,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Below Decks ",
+        "locationMade": "Baltimore, MD",
+        "type": "Strong Ale",
+        "abv": 12.2,
+        "brewery": "Founders Brewing Co.",
+        "ibu": 60,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Lagavulin Barrel Aged Harvest Ale",
+        "locationMade": "Middleton, Greater Manchester ",
+        "type": "Strong Ale",
+        "abv": 11.2,
+        "brewery": "JW Lees and Co",
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Fusion 46",
+        "locationMade": "Petaluma, CA",
+        "type": "Strong Ale",
+        "abv": 12.6,
+        "brewery": "Lagunitas Brewing Company",
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Cognac BA Double Chin Wig",
+        "locationMade": "Portage, MI",
+        "type": "Strong Ale",
+        "abv": 10.5,
+        "brewery": "Latitude 42 Brewing Company",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Bigfoot",
+        "locationMade": "Chico, CA",
+        "type": "Strong Ale",
+        "abv": 9.6,
+        "brewery": "Sierra Nevada Brewing Co. ",
+        "ibu": 90,
+        "color": "Dark"
+    },
+    {
+        "nameOfBeer": "Bourbon Barrel Aged Prehistoric Rhetoric Old Ale",
+        "locationMade": "Bridgman, MI",
+        "type": "Strong Ale",
+        "abv": 8.5,
+        "brewery": "Tapistry Brewing",
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Well Water",
+        "locationMade": "South Lyon, MI",
+        "type": "Strong Ale ",
+        "abv": 14,
+        "brewery": "Witch's Hat Brewing Company",
+        "color": "Light"
+    },
+    {
+        "nameOfBeer": "Saison Brett",
+        "locationMade": "Kansas City, MO",
+        "type": "Belgian",
+        "abv": 8.5,
+        "brewery": "Boulevard Brewing Co",
+        "ibu": 38,
+        "color": "Medium"
+    },
+    {
+        "nameOfBeer": "Brune",
+        "locationMade": "Rulles, Luxembourg",
+        "type": "Belgian",
+        "abv": 6.5,
+        "brewery": "Brasserie Artisanale de Rulles",
+        "ibu": 31,
         "color": "Dark"
     }
 ]
