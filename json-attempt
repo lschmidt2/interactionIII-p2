@@ -1,953 +1,2601 @@
-[
-    {
-        "nameOfBeer": "Loch Down Scotch Ale",
-        "locationMade": "Kalamazoo",
-        "type": "Ale",
-        "abv": 8,
-        "brewery": "Arcadia Brewing Company",
-        "ibu": 7,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bollywood Blonde Ale",
-        "locationMade": "Ann Arbor, MI",
-        "type": "Ale",
-        "abv": 6,
-        "brewery": "ABC Brewpub",
-        "ibu": 7,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Hooligan",
-        "locationMade": "Atlanta, GA",
-        "type": "Ale",
-        "abv": 5.5,
-        "brewery": "Jolly Pumpkin",
-        "ibu": 6,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Vanilla Java Porter",
-        "locationMade": "Detroit, MI",
-        "type": "Porter",
-        "abv": 5,
-        "brewery": "Atwater Brewery",
-        "ibu": 13,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Ninja Chicken Pale Ale",
-        "locationMade": "Warren, MI",
-        "type": "Pale Ale",
-        "abv": 5.6,
-        "brewery": "Falling Down Beer Company",
-        "ibu": 44,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Mother Cluster",
-        "locationMade": "Warren, MI",
-        "type": "Cream Ale",
-        "abv": 5.2,
-        "brewery": "Falling Down Beer Company",
-        "ibu": 22,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Two Hearted Ale",
-        "locationMade": "Galesburg, MI",
-        "type": "Pale Ale",
-        "abv": 7,
-        "brewery": "Bell's Brewery",
-        "ibu": 55,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "2 Biggie Smaller",
-        "locationMade": "Detroit, MI",
-        "type": "Pale Ale",
-        "abv": 11,
-        "brewery": "Batch Brewing Company",
-        "ibu": 70,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Ghettoblaster",
-        "locationMade": "Detroit, MI",
-        "type": "Mild Ale",
-        "abv": 3.8,
-        "brewery": "Motor City Brewing Works",
-        "ibu": 15,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Amber Ale",
-        "locationMade": "Galesburg, MI",
-        "type": "Ale",
-        "abv": 5.8,
-        "brewery": "Bell's Brewery",
-        "ibu": 1,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "D-Light",
-        "locationMade": "Detroit, MI",
-        "type": "Kölsch",
-        "abv": 4.5,
-        "brewery": "Atwater Brewery",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Big Red Coq",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Red Ale",
-        "abv": 6.25,
-        "brewery": "Brewery Vivant",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Farm Hand",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Farmhouse Ale",
-        "abv": 5.5,
-        "brewery": "Brewery Vivant",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Rauchbock",
-        "locationMade": "Detroit, MI",
-        "type": "Rauchbier",
-        "abv": 6.2,
-        "brewery": "Batch Brewing Company",
-        "ibu": 10,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "The Audacity",
-        "locationMade": "Detroit, MI",
-        "type": "Kölsch",
-        "abv": 3.8,
-        "brewery": "Batch Brewing Company",
-        "ibu": 9,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Petite Pamplemousse",
-        "locationMade": "Detroit, MI",
-        "type": "Grisette",
-        "abv": 5,
-        "brewery": "Batch Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "YIPES!",
-        "locationMade": "Detroit, MI",
-        "type": "IPA",
-        "abv": 6.6,
-        "brewery": "Batch Brewing Company",
-        "ibu": 45,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Empire Pale Ale",
-        "locationMade": "Detroit, MI",
-        "type": "Pale Ale",
-        "abv": 6.2,
-        "brewery": "Batch Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Laura Ingalls IPA",
-        "locationMade": "Detroit, MI",
-        "type": "Pale Ale",
-        "abv": 4,
-        "brewery": "Batch Brewing Company",
-        "ibu": 23,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Drawing Down the Moon",
-        "locationMade": "Detroit, MI",
-        "type": "Sahti",
-        "abv": 8.4,
-        "brewery": "Batch Brewing Company",
-        "ibu": 12,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Empire Special Bitter",
-        "locationMade": "Detroit, MI",
-        "type": "Strong Bitter",
-        "abv": 4.4,
-        "brewery": "Batch Brewing Company",
-        "ibu": 31,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Lady's Debut",
-        "locationMade": "Detroit, MI",
-        "type": "Pale Ale",
-        "abv": 5.2,
-        "brewery": "Batch Brewing Company",
-        "ibu": 20,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "That's the Way She Gose, Eh",
-        "locationMade": "Detroit, MI",
-        "type": "Sour",
-        "abv": 4.6,
-        "brewery": "Batch Brewing Company",
-        "ibu": 12,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Blue Sailor",
-        "locationMade": "Detroit, MI",
-        "type": "Stout",
-        "abv": 6.2,
-        "brewery": "Batch Brewing Company",
-        "ibu": 30,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Hefeweizen",
-        "locationMade": "Detroit, MI",
-        "type": "Hefeweizen",
-        "abv": 6.2,
-        "brewery": "Batch Brewing Company",
-        "ibu": 13,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Fest Bier",
-        "locationMade": "Detroit, MI",
-        "type": "Festbier",
-        "abv": 5,
-        "brewery": "Batch Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Pilsner",
-        "locationMade": "Detroit, MI",
-        "type": "Pilsner",
-        "abv": 4.2,
-        "brewery": "Batch Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Palewise",
-        "locationMade": "Detroit, MI",
-        "type": "Kölsch",
-        "abv": 5.7,
-        "brewery": "Batch Brewing Company",
-        "ibu": 22,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Boffo Brown Ale",
-        "locationMade": "Marshall, MI",
-        "type": "Brown Ale",
-        "abv": 7,
-        "brewery": "Dark Horse Brewing Co.",
-        "ibu": 26,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Crooked Tree IPA",
-        "locationMade": "Marshall, MI",
-        "type": "IPA",
-        "abv": 6.5,
-        "brewery": "Dark Horse Brewing Co.",
-        "ibu": 50,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Witty Yank",
-        "locationMade": "Wixom, MI",
-        "type": "Pale Ale",
-        "abv": 5,
-        "brewery": "Drafting Table Brewing Company",
-        "ibu": 10,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Castlebrite Apricot Ale",
-        "locationMade": "Warren, MI",
-        "type": "Fruit",
-        "abv": 5.7,
-        "brewery": "Dragonmead Microbrewery",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Final Absolution",
-        "locationMade": "Warren, MI",
-        "type": "Belgian Tripel",
-        "abv": 10,
-        "brewery": "Dragonmead Microbrewery",
-        "ibu": 30,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Relativity",
-        "locationMade": "East Lansing, MI",
-        "type": "IPA",
-        "abv": 8,
-        "brewery": "Ellison Brewery / Spirits",
-        "ibu": 70,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Porter",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Porter",
-        "abv": 6.5,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 45,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Red's Rye IPA",
-        "locationMade": "Grand Rapids, MI",
-        "type": "IPA",
-        "abv": 6.6,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 70,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "The Hef",
-        "locationMade": "Frankenmuth, MI",
-        "type": "Hefeweizen",
-        "abv": 5.2,
-        "brewery": "Frankenmuth Brewery",
-        "ibu": 13,
-        "color": 0
-    },
-    {
-        "nameOfBeer": "El Rojo Red Ale",
-        "locationMade": "Birmingham, MI",
-        "type": "Red Ale",
-        "abv": 6.5,
-        "brewery": "Griffin Claw Brewing Company",
-        "ibu": 25,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Grind Line",
-        "locationMade": "Birmingham, MI",
-        "type": "Pale Ale",
-        "abv": 5,
-        "brewery": "Griffin Claw Brewing Company",
-        "ibu": 35,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "The Fluffer",
-        "locationMade": "Warren, MI",
-        "type": "IPA",
-        "abv": 4.5,
-        "brewery": "Kuhnhenn Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Beach Cruiser",
-        "locationMade": "Portage, MI",
-        "type": "Hefeweizen",
-        "abv": 4.5,
-        "brewery": "Lattitude 42 Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Ghettoblaster",
-        "locationMade": "Detroit, MI",
-        "type": "Mild Ale",
-        "abv": 3.8,
-        "brewery": "Motor City Brewing Works",
-        "ibu": 15,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "The Poet",
-        "locationMade": "Holland, MI",
-        "type": "Stout",
-        "abv": 5.2,
-        "brewery": "New Holland Brewing Company",
-        "ibu": 37,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bean Flicker Blonde",
-        "locationMade": "Grand Haven, MI",
-        "type": "Blonde Ale",
-        "abv": 4.5,
-        "brewery": "Odd Side Ales",
-        "ibu": 21,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Gold Ale",
-        "locationMade": "Comstock Park, MI",
-        "type": "Golden Ale",
-        "abv": 4.8,
-        "brewery": "Perrin Brewing Co",
-        "ibu": 15,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Pine Knob Pilsner",
-        "locationMade": "Rochester, MI",
-        "type": "Pilsner",
-        "abv": 5.3,
-        "brewery": "Rochester Mills Beer Co",
-        "ibu": 24,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Huma Lupa Licious",
-        "locationMade": "Bellaire, MI",
-        "type": "IPA",
-        "abv": 7.7,
-        "brewery": "Short's Brewing Company",
-        "ibu": 96,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Soft Parade",
-        "locationMade": "Bellaire, MI",
-        "type": "Fruit",
-        "abv": 7.5,
-        "brewery": "Short's Brewing Company",
-        "ibu": 15,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Hard Apple Cider",
-        "locationMade": "Spring Lake, MI",
-        "type": "Cider",
-        "abv": 6.9,
-        "brewery": "Vander Mill",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Sweet Lou Milk Stout",
-        "locationMade": "South Lyon, MI",
-        "type": "Stout",
-        "abv": 6.5,
-        "brewery": "Witch's Hat Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Kentucky Vanilla \nBarrel Cream Ale",
-        "locationMade": "Lexington, KY",
-        "type": "Cream Ale",
-        "abv": 5.5,
-        "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
-        "ibu": 22,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Bonito",
-        "locationMade": "San Diego, CA",
-        "type": "Blonde Ale",
-        "abv": 4.5,
-        "brewery": "Ballast Point Brewing Company",
-        "ibu": 20,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Begyle Blone",
-        "locationMade": "Chicago, IL",
-        "type": "Blonde Ale",
-        "abv": 5.4,
-        "brewery": "Begyle Brewing",
-        "ibu": 20,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Mary Mangolene",
-        "locationMade": "Toledo, OH",
-        "type": "Fruit",
-        "abv": 5,
-        "brewery": "Black Colister Brewing Company",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "The Partner Ships \nCigar City IPL",
-        "locationMade": "Baltimore, MD",
-        "type": "Lager",
-        "abv": 7.8,
-        "brewery": "Heavy Seas Beer",
-        "ibu": 48,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "2 Biggie Smaller",
-        "locationMade": "Detroit, MI",
-        "type": "IPA",
-        "abv": 11,
-        "brewery": "Batch Brewing Company",
-        "ibu": 70,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Kentucky Rickhouse \nSeries No. 6 Tangerine Cream",
-        "locationMade": "Lexington, KY",
-        "type": "Cream Ale",
-        "abv": 5.5,
-        "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Bean Flicker Nitro",
-        "locationMade": "Grand Haven, MI",
-        "type": "Blonde Ale",
-        "abv": 4.5,
-        "brewery": "Odd Side Ales",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Q-Stew",
-        "locationMade": "Comstock Park, MI",
-        "type": "Lager",
-        "abv": 3.6,
-        "brewery": "Perrin Brewing Co",
-        "ibu": 25,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Bluewater Light",
-        "locationMade": "Ann Arbor, MI",
-        "type": "Lager",
-        "abv": 4.3,
-        "brewery": "Wolverine State Brewing Co",
-        "ibu": 12,
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "60 Minute IPA",
-        "locationMade": "Milton, DE",
-        "type": "IPA",
-        "abv": 6,
-        "brewery": "Dogfish Head Craft Brewery",
-        "ibu": 60,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Nitro Pale Ale",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Pale Ale",
-        "abv": 5.4,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 35,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "M is for Murker",
-        "locationMade": "San Diego, CA",
-        "type": "IPA",
-        "abv": 7,
-        "brewery": "Mikkeller Brewing San Diego",
-        "ibu": 65,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Unfiltered Wheat Beer",
-        "locationMade": "Kansas City, MO",
-        "type": "Pale Ale",
-        "abv": 4.4,
-        "brewery": "Boulevard Brewing Co",
-        "ibu": 14,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "We be Jammin'",
-        "locationMade": "Grand Haven, MI",
-        "type": "Pale Ale",
-        "abv": 4.5,
-        "brewery": "Odd Sides Ale",
-        "ibu": 28,
-        "color": "Red"
-    },
-    {
-        "nameOfBeer": "Gin Barrel Agged Mr. Orange",
-        "locationMade": "Bridgman, MI",
-        "type": "Witbier",
-        "abv": 5.2,
-        "brewery": "Tapistry Brewing",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Deliverance",
-        "locationMade": "Kalamazoo, MI",
-        "type": "Brown Ale",
-        "abv": 9,
-        "brewery": "Arcadia Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Indian Brown Ale",
-        "locationMade": "Milton, DE",
-        "type": "Brown Ale",
-        "abv": 7.2,
-        "brewery": "Dogfish Head Craft Brewery",
-        "ibu": 50,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Borealis Broo",
-        "locationMade": "Houghton, MI",
-        "type": "Red Ale",
-        "abv": 5.1,
-        "brewery": "Keweenaw Brewing Company",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "BBA Maple Brown Ale",
-        "locationMade": "Rochester, MI",
-        "type": "Brown Ale",
-        "abv": 6.5,
-        "brewery": "Rochester Mills Beer Co.",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Cafe Brown",
-        "locationMade": "Douglas, MI",
-        "type": "Brown Ale",
-        "abv": 5.5,
-        "brewery": "Saugatuck Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Autumn Ale",
-        "locationMade": "Bellaire, MI",
-        "type": "Strong Bitter",
-        "abv": 5.9,
-        "brewery": "Short's Brewing Company",
-        "ibu": 45,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Huge Arker",
-        "locationMade": "Boonville, CA",
-        "type": "Stout",
-        "abv": 13.5,
-        "brewery": "Anderson Valley Brewing Company",
-        "ibu": 88,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Barrel Aged Shipwreck Porter",
-        "locationMade": "Kalamazoo, MI",
-        "type": "Porter",
-        "abv": 12,
-        "brewery": "Arcadia Brewing Company",
-        "ibu": 50,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Uncle Jacob's Stout",
-        "locationMade": "Boulder, CO",
-        "type": "Stout",
-        "abv": 17.1,
-        "brewery": "Avery Brewing Co",
-        "ibu": 65,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Willett Bourbon \nBarrel Aged Sea Monster",
-        "locationMade": "San Diego, CA",
-        "type": "Stout",
-        "abv": 12.3,
-        "brewery": "Ballast Point Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Traverse City Whiskey \nBarrel Aged 30th \nAnniversary Ale",
-        "locationMade": "Comstock, MI",
-        "type": "Stout",
-        "abv": 14.1,
-        "brewery": "Bell's Brewery",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Tsar",
-        "locationMade": "Buxton, Derbyshire",
-        "type": "Stout",
-        "abv": 9.5,
-        "brewery": "Buxton Brewery",
-        "ibu": 80,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bourbon Barrel Plead the\n5th Imperial Stout",
-        "locationMade": "Marshall, MI",
-        "type": "Stout",
-        "abv": 11,
-        "brewery": "Dark Horse Brewing Co.",
-        "ibu": 65,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Oak-Aged Vanilla World Wide\nStout",
-        "locationMade": "Milton, DE",
-        "type": "Stout",
-        "abv": 16,
-        "brewery": "Dogfish Head Craft Brewery",
-        "ibu": 70,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Siracusa Nera",
-        "locationMade": "Milton, DE",
-        "type": "Stout",
-        "abv": 10,
-        "brewery": "Dogfish Head Craft Brewery",
-        "ibu": 60,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "KBS",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Stout",
-        "abv": 11.8,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 70,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Delusion",
-        "locationMade": "Sawyer, MI",
-        "type": "Stout",
-        "abv": 11.7,
-        "brewery": "Greenbush Brewing Company",
-        "ibu": 88,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "High West-ified Imperial\nCoffee Stout",
-        "locationMade": "Petaluma, CA",
-        "type": "Stout",
-        "abv": 12.2,
-        "brewery": "Lagunitas Brewing Company",
-        "ibu": 39,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bourbon Barrel Total Eclipse",
-        "locationMade": "Toledo, OH",
-        "type": "Stout",
-        "abv": 10.2,
-        "brewery": "Maumee Bay Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "BBA Beer Geek Brunch",
-        "locationMade": "San Diego, CA",
-        "type": "Stout",
-        "abv": 10.9,
-        "brewery": "Mikkeller Brewing San Diego",
-        "ibu": 60,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Dragon's Milk",
-        "locationMade": "Holland, MI",
-        "type": "Stout",
-        "abv": 11,
-        "brewery": "New Holland Brewing Company",
-        "ibu": 31,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Tripper Noche",
-        "locationMade": "Holland, MI",
-        "type": "Stout",
-        "abv": 12.1,
-        "brewery": "New Holland Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bourbon Barrel Aged\nImperial Mayan Mocha",
-        "locationMade": "Grand Haven, MI",
-        "type": "Stout",
-        "abv": 10,
-        "brewery": "Odd Side Ales",
-        "ibu": 69,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "The Nightman Leaveth",
-        "locationMade": "Grand Haven, MI",
-        "type": "Stout",
-        "abv": 11,
-        "brewery": "Odd Side Ales",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Ten Fidy",
-        "locationMade": "Longmont, CO",
-        "type": "Stout",
-        "abv": 10.5,
-        "brewery": "Oskar Blues Brewery",
-        "ibu": 65,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bullet Tooth",
-        "locationMade": "Comstock Park, MI",
-        "type": "Stout",
-        "abv": 9.5,
-        "brewery": "Perrin Brewing Co",
-        "ibu": 60,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Malted Milk Ball",
-        "locationMade": "Comstock Park, MI",
-        "type": "Porter",
-        "abv": 11.3,
-        "brewery": "Perrin Brewing Co",
-        "ibu": 32,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "No Rules",
-        "locationMade": "Comstock Park, MI",
-        "type": "Porter",
-        "abv": 15,
-        "brewery": "Perrin Brewing Co",
-        "ibu": 56,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Wooward Bold Coffee Stout",
-        "locationMade": "Rochester, MI",
-        "type": "Stout",
-        "abv": 5,
-        "brewery": "Rochester Mills Beer Co",
-        "ibu": 19,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Kentucky Bourbon Barrel Ale",
-        "locationMade": "Lexington, KY",
-        "type": "Strong Ale",
-        "abv": 8.2,
-        "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
-        "ibu": 15,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Barrel Aged Cereal Killer",
-        "locationMade": "Lexington, KY",
-        "type": "Strong Ale",
-        "abv": 12,
-        "brewery": "Arcedia Brewing Company",
-        "ibu": 70,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Chinook",
-        "locationMade": "Holland, MI",
-        "type": "Strong Ale",
-        "abv": 8,
-        "brewery": "Big Lake Brewing",
-        "ibu": 80,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Rye on Rye on Rye",
-        "locationMade": "Kansas City, MO",
-        "type": "Strong Ale",
-        "abv": 14.6,
-        "brewery": "Boulevard Brewing Co",
-        "ibu": 33,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "2016 Backwoods Bastard",
-        "locationMade": "Grand Rapids, MI",
-        "type": "Strong Ale ",
-        "abv": 11.2,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 50,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Below Decks ",
-        "locationMade": "Baltimore, MD",
-        "type": "Strong Ale",
-        "abv": 12.2,
-        "brewery": "Founders Brewing Co.",
-        "ibu": 60,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Lagavulin Barrel Aged Harvest Ale",
-        "locationMade": "Middleton, Greater Manchester ",
-        "type": "Strong Ale",
-        "abv": 11.2,
-        "brewery": "JW Lees and Co",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Fusion 46",
-        "locationMade": "Petaluma, CA",
-        "type": "Strong Ale",
-        "abv": 12.6,
-        "brewery": "Lagunitas Brewing Company",
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Cognac BA Double Chin Wig",
-        "locationMade": "Portage, MI",
-        "type": "Strong Ale",
-        "abv": 10.5,
-        "brewery": "Latitude 42 Brewing Company",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Bigfoot",
-        "locationMade": "Chico, CA",
-        "type": "Strong Ale",
-        "abv": 9.6,
-        "brewery": "Sierra Nevada Brewing Co. ",
-        "ibu": 90,
-        "color": "Dark"
-    },
-    {
-        "nameOfBeer": "Bourbon Barrel Aged Prehistoric Rhetoric Old Ale",
-        "locationMade": "Bridgman, MI",
-        "type": "Strong Ale",
-        "abv": 8.5,
-        "brewery": "Tapistry Brewing",
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Well Water",
-        "locationMade": "South Lyon, MI",
-        "type": "Strong Ale ",
-        "abv": 14,
-        "brewery": "Witch's Hat Brewing Company",
-        "color": "Light"
-    },
-    {
-        "nameOfBeer": "Saison Brett",
-        "locationMade": "Kansas City, MO",
-        "type": "Belgian",
-        "abv": 8.5,
-        "brewery": "Boulevard Brewing Co",
-        "ibu": 38,
-        "color": "Medium"
-    },
-    {
-        "nameOfBeer": "Brune",
-        "locationMade": "Rulles, Luxembourg",
-        "type": "Belgian",
-        "abv": 6.5,
-        "brewery": "Brasserie Artisanale de Rulles",
-        "ibu": 31,
-        "color": "Dark"
-    }
-]
+{
+    "Form Responses 1": [],
+    "Sheet1": [
+        {
+            "nameOfBeer": "Loch Down Scotch Ale",
+            "locationMade": "Kalamazoo",
+            "brewery": "Arcadia Brewing Company",
+            "type": "Ale",
+            "abv": 8,
+            "ibu": 7,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bollywood Blonde Ale",
+            "locationMade": "Ann Arbor, MI",
+            "brewery": "ABC Brewpub",
+            "type": "Ale",
+            "abv": 6,
+            "ibu": 7,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hooligan",
+            "locationMade": "Atlanta, GA",
+            "brewery": "Jolly Pumpkin",
+            "type": "Ale",
+            "abv": 5.5,
+            "ibu": 6,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Vanilla Java Porter",
+            "locationMade": "Detroit, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Porter",
+            "abv": 5,
+            "ibu": 13,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Ninja Chicken Pale Ale",
+            "locationMade": "Warren, MI",
+            "brewery": "Falling Down Beer Company",
+            "type": "Pale Ale",
+            "abv": 5.6,
+            "ibu": 44,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Mother Cluster",
+            "locationMade": "Warren, MI",
+            "brewery": "Falling Down Beer Company",
+            "type": "Cream Ale",
+            "abv": 5.2,
+            "ibu": 22,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Two Hearted Ale",
+            "locationMade": "Galesburg, MI",
+            "brewery": "Bell's Brewery",
+            "type": "Pale Ale",
+            "abv": 7,
+            "ibu": 55,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "2 Biggie Smaller",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pale Ale",
+            "abv": 11,
+            "ibu": 70,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Ghettoblaster",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Mild Ale",
+            "abv": 3.8,
+            "ibu": 15,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Amber Ale",
+            "locationMade": "Galesburg, MI",
+            "brewery": "Bell's Brewery",
+            "type": "Ale",
+            "abv": 5.8,
+            "ibu": 1,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "D-Light",
+            "locationMade": "Detroit, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Kölsch",
+            "abv": 4.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Big Red Coq",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Brewery Vivant",
+            "type": "Red Ale",
+            "abv": 6.25,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Farm Hand",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Brewery Vivant",
+            "type": "Farmhouse Ale",
+            "abv": 5.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Rauchbock",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Rauchbier",
+            "abv": 6.2,
+            "ibu": 10,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "The Audacity",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Kölsch",
+            "abv": 3.8,
+            "ibu": 9,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Petite Pamplemousse",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Grisette",
+            "abv": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "YIPES!",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "IPA",
+            "abv": 6.6,
+            "ibu": 45,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Empire Pale Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pale Ale",
+            "abv": 6.2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Laura Ingalls IPA",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pale Ale",
+            "abv": 4,
+            "ibu": 23,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Drawing Down the Moon",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sahti",
+            "abv": 8.4,
+            "ibu": 12,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Empire Special Bitter",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Strong Bitter",
+            "abv": 4.4,
+            "ibu": 31,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Lady's Debut",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5.2,
+            "ibu": 20,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "That's the Way She Gose, Eh",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sour",
+            "abv": 4.6,
+            "ibu": 12,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Blue Sailor",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Stout",
+            "abv": 6.2,
+            "ibu": 30,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hefeweizen",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Hefeweizen",
+            "abv": 6.2,
+            "ibu": 13,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Fest Bier",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Festbier",
+            "abv": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Pilsner",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pilsner",
+            "abv": 4.2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Palewise",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Kölsch",
+            "abv": 5.7,
+            "ibu": 22,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Boffo Brown Ale",
+            "locationMade": "Marshall, MI",
+            "brewery": "Dark Horse Brewing Co.",
+            "type": "Brown Ale",
+            "abv": 7,
+            "ibu": 26,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Crooked Tree IPA",
+            "locationMade": "Marshall, MI",
+            "brewery": "Dark Horse Brewing Co.",
+            "type": "IPA",
+            "abv": 6.5,
+            "ibu": 50,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Witty Yank",
+            "locationMade": "Wixom, MI",
+            "brewery": "Drafting Table Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5,
+            "ibu": 10,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Castlebrite Apricot Ale",
+            "locationMade": "Warren, MI",
+            "brewery": "Dragonmead Microbrewery",
+            "type": "Fruit",
+            "abv": 5.7,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Final Absolution",
+            "locationMade": "Warren, MI",
+            "brewery": "Dragonmead Microbrewery",
+            "type": "Belgian Tripel",
+            "abv": 10,
+            "ibu": 30,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Relativity",
+            "locationMade": "East Lansing, MI",
+            "brewery": "Ellison Brewery / Spirits",
+            "type": "IPA",
+            "abv": 8,
+            "ibu": 70,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Porter",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Porter",
+            "abv": 6.5,
+            "ibu": 45,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Red's Rye IPA",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "IPA",
+            "abv": 6.6,
+            "ibu": 70,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "The Hef",
+            "locationMade": "Frankenmuth, MI",
+            "brewery": "Frankenmuth Brewery",
+            "type": "Hefeweizen",
+            "abv": 5.2,
+            "ibu": 13,
+            "color": 0
+        },
+        {
+            "nameOfBeer": "El Rojo Red Ale",
+            "locationMade": "Birmingham, MI",
+            "brewery": "Griffin Claw Brewing Company",
+            "type": "Red Ale",
+            "abv": 6.5,
+            "ibu": 25,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Grind Line",
+            "locationMade": "Birmingham, MI",
+            "brewery": "Griffin Claw Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5,
+            "ibu": 35,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "The Fluffer",
+            "locationMade": "Warren, MI",
+            "brewery": "Kuhnhenn Brewing Company",
+            "type": "IPA",
+            "abv": 4.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Beach Cruiser",
+            "locationMade": "Portage, MI",
+            "brewery": "Lattitude 42 Brewing Company",
+            "type": "Hefeweizen",
+            "abv": 4.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Ghettoblaster",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Mild Ale",
+            "abv": 3.8,
+            "ibu": 15,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "The Poet",
+            "locationMade": "Holland, MI",
+            "brewery": "New Holland Brewing Company",
+            "type": "Stout",
+            "abv": 5.2,
+            "ibu": 37,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bean Flicker Blonde",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Blonde Ale",
+            "abv": 4.5,
+            "ibu": 21,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Gold Ale",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co",
+            "type": "Golden Ale",
+            "abv": 4.8,
+            "ibu": 15,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Pine Knob Pilsner",
+            "locationMade": "Rochester, MI",
+            "brewery": "Rochester Mills Beer Co",
+            "type": "Pilsner",
+            "abv": 5.3,
+            "ibu": 24,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Huma Lupa Licious",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "IPA",
+            "abv": 7.7,
+            "ibu": 96,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Soft Parade",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Fruit",
+            "abv": 7.5,
+            "ibu": 15,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hard Apple Cider",
+            "locationMade": "Spring Lake, MI",
+            "brewery": "Vander Mill",
+            "type": "Cider",
+            "abv": 6.9,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Sweet Lou Milk Stout",
+            "locationMade": "South Lyon, MI",
+            "brewery": "Witch's Hat Brewing Company",
+            "type": "Stout",
+            "abv": 6.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Kentucky Vanilla \nBarrel Cream Ale",
+            "locationMade": "Lexington, KY",
+            "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
+            "type": "Cream Ale",
+            "abv": 5.5,
+            "ibu": 22,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bonito",
+            "locationMade": "San Diego, CA",
+            "brewery": "Ballast Point Brewing Company",
+            "type": "Blonde Ale",
+            "abv": 4.5,
+            "ibu": 20,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Begyle Blone",
+            "locationMade": "Chicago, IL",
+            "brewery": "Begyle Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.4,
+            "ibu": 20,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Mary Mangolene",
+            "locationMade": "Toledo, OH",
+            "brewery": "Black Colister Brewing Company",
+            "type": "Fruit",
+            "abv": 5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "The Partner Ships \nCigar City IPL",
+            "locationMade": "Baltimore, MD",
+            "brewery": "Heavy Seas Beer",
+            "type": "Lager",
+            "abv": 7.8,
+            "ibu": 48,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "2 Biggie Smaller",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "IPA",
+            "abv": 11,
+            "ibu": 70,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Kentucky Rickhouse \nSeries No. 6 Tangerine Cream",
+            "locationMade": "Lexington, KY",
+            "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
+            "type": "Cream Ale",
+            "abv": 5.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bean Flicker Nitro",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Blonde Ale",
+            "abv": 4.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Q-Stew",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co",
+            "type": "Lager",
+            "abv": 3.6,
+            "ibu": 25,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Bluewater Light",
+            "locationMade": "Ann Arbor, MI",
+            "brewery": "Wolverine State Brewing Co",
+            "type": "Lager",
+            "abv": 4.3,
+            "ibu": 12,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "60 Minute IPA",
+            "locationMade": "Milton, DE",
+            "brewery": "Dogfish Head Craft Brewery",
+            "type": "IPA",
+            "abv": 6,
+            "ibu": 60,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Nitro Pale Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Pale Ale",
+            "abv": 5.4,
+            "ibu": 35,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "M is for Murker",
+            "locationMade": "San Diego, CA",
+            "brewery": "Mikkeller Brewing San Diego",
+            "type": "IPA",
+            "abv": 7,
+            "ibu": 65,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Unfiltered Wheat Beer",
+            "locationMade": "Kansas City, MO",
+            "brewery": "Boulevard Brewing Co",
+            "type": "Pale Ale",
+            "abv": 4.4,
+            "ibu": 14,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "We be Jammin'",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Sides Ale",
+            "type": "Pale Ale",
+            "abv": 4.5,
+            "ibu": 28,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "Gin Barrel Agged Mr. Orange",
+            "locationMade": "Bridgman, MI",
+            "brewery": "Tapistry Brewing",
+            "type": "Witbier",
+            "abv": 5.2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Deliverance",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "Arcadia Brewing Company",
+            "type": "Brown Ale",
+            "abv": 9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Indian Brown Ale",
+            "locationMade": "Milton, DE",
+            "brewery": "Dogfish Head Craft Brewery",
+            "type": "Brown Ale",
+            "abv": 7.2,
+            "ibu": 50,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Borealis Broo",
+            "locationMade": "Houghton, MI",
+            "brewery": "Keweenaw Brewing Company",
+            "type": "Red Ale",
+            "abv": 5.1,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "BBA Maple Brown Ale",
+            "locationMade": "Rochester, MI",
+            "brewery": "Rochester Mills Beer Co.",
+            "type": "Brown Ale",
+            "abv": 6.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Cafe Brown",
+            "locationMade": "Douglas, MI",
+            "brewery": "Saugatuck Brewing Company",
+            "type": "Brown Ale",
+            "abv": 5.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Autumn Ale",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Strong Bitter",
+            "abv": 5.9,
+            "ibu": 45,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Huge Arker",
+            "locationMade": "Boonville, CA",
+            "brewery": "Anderson Valley Brewing Company",
+            "type": "Stout",
+            "abv": 13.5,
+            "ibu": 88,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Barrel Aged Shipwreck Porter",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "Arcadia Brewing Company",
+            "type": "Porter",
+            "abv": 12,
+            "ibu": 50,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Uncle Jacob's Stout",
+            "locationMade": "Boulder, CO",
+            "brewery": "Avery Brewing Co",
+            "type": "Stout",
+            "abv": 17.1,
+            "ibu": 65,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Willett Bourbon \nBarrel Aged Sea Monster",
+            "locationMade": "San Diego, CA",
+            "brewery": "Ballast Point Brewing Company",
+            "type": "Stout",
+            "abv": 12.3,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Traverse City Whiskey \nBarrel Aged 30th \nAnniversary Ale",
+            "locationMade": "Comstock, MI",
+            "brewery": "Bell's Brewery",
+            "type": "Stout",
+            "abv": 14.1,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Tsar",
+            "locationMade": "Buxton, Derbyshire",
+            "brewery": "Buxton Brewery",
+            "type": "Stout",
+            "abv": 9.5,
+            "ibu": 80,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Plead the\n5th Imperial Stout",
+            "locationMade": "Marshall, MI",
+            "brewery": "Dark Horse Brewing Co.",
+            "type": "Stout",
+            "abv": 11,
+            "ibu": 65,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Oak-Aged Vanilla World Wide\nStout",
+            "locationMade": "Milton, DE",
+            "brewery": "Dogfish Head Craft Brewery",
+            "type": "Stout",
+            "abv": 16,
+            "ibu": 70,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Siracusa Nera",
+            "locationMade": "Milton, DE",
+            "brewery": "Dogfish Head Craft Brewery",
+            "type": "Stout",
+            "abv": 10,
+            "ibu": 60,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "KBS",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Stout",
+            "abv": 11.8,
+            "ibu": 70,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Delusion",
+            "locationMade": "Sawyer, MI",
+            "brewery": "Greenbush Brewing Company",
+            "type": "Stout",
+            "abv": 11.7,
+            "ibu": 88,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "High West-ified Imperial\nCoffee Stout",
+            "locationMade": "Petaluma, CA",
+            "brewery": "Lagunitas Brewing Company",
+            "type": "Stout",
+            "abv": 12.2,
+            "ibu": 39,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Total Eclipse",
+            "locationMade": "Toledo, OH",
+            "brewery": "Maumee Bay Brewing Company",
+            "type": "Stout",
+            "abv": 10.2,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "BBA Beer Geek Brunch",
+            "locationMade": "San Diego, CA",
+            "brewery": "Mikkeller Brewing San Diego",
+            "type": "Stout",
+            "abv": 10.9,
+            "ibu": 60,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Dragon's Milk",
+            "locationMade": "Holland, MI",
+            "brewery": "New Holland Brewing Company",
+            "type": "Stout",
+            "abv": 11,
+            "ibu": 31,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Tripper Noche",
+            "locationMade": "Holland, MI",
+            "brewery": "New Holland Brewing Company",
+            "type": "Stout",
+            "abv": 12.1,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Aged\nImperial Mayan Mocha",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Stout",
+            "abv": 10,
+            "ibu": 69,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "The Nightman Leaveth",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Stout",
+            "abv": 11,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Ten Fidy",
+            "locationMade": "Longmont, CO",
+            "brewery": "Oskar Blues Brewery",
+            "type": "Stout",
+            "abv": 10.5,
+            "ibu": 65,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bullet Tooth",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co",
+            "type": "Stout",
+            "abv": 9.5,
+            "ibu": 60,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Malted Milk Ball",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co",
+            "type": "Porter",
+            "abv": 11.3,
+            "ibu": 32,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "No Rules",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co",
+            "type": "Porter",
+            "abv": 15,
+            "ibu": 56,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Wooward Bold Coffee Stout",
+            "locationMade": "Rochester, MI",
+            "brewery": "Rochester Mills Beer Co",
+            "type": "Stout",
+            "abv": 5,
+            "ibu": 19,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Kentucky Bourbon Barrel Ale",
+            "locationMade": "Lexington, KY",
+            "brewery": "Alltech Lexington \nBrewing & Distilling Co.",
+            "type": "Strong Ale",
+            "abv": 8.2,
+            "ibu": 15,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Barrel Aged Cereal Killer",
+            "locationMade": "Lexington, KY",
+            "brewery": "Arcedia Brewing Company",
+            "type": "Strong Ale",
+            "abv": 12,
+            "ibu": 70,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Chinook",
+            "locationMade": "Holland, MI",
+            "brewery": "Big Lake Brewing",
+            "type": "Strong Ale",
+            "abv": 8,
+            "ibu": 80,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Rye on Rye on Rye",
+            "locationMade": "Kansas City, MO",
+            "brewery": "Boulevard Brewing Co",
+            "type": "Strong Ale",
+            "abv": 14.6,
+            "ibu": 33,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "2016 Backwoods Bastard",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Strong Ale ",
+            "abv": 11.2,
+            "ibu": 50,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Below Decks ",
+            "locationMade": "Baltimore, MD",
+            "brewery": "Founders Brewing Co.",
+            "type": "Strong Ale",
+            "abv": 12.2,
+            "ibu": 60,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Lagavulin Barrel Aged Harvest Ale",
+            "locationMade": "Middleton, Greater Manchester ",
+            "brewery": "JW Lees and Co",
+            "type": "Strong Ale",
+            "abv": 11.2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Fusion 46",
+            "locationMade": "Petaluma, CA",
+            "brewery": "Lagunitas Brewing Company",
+            "type": "Strong Ale",
+            "abv": 12.6,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Cognac BA Double Chin Wig",
+            "locationMade": "Portage, MI",
+            "brewery": "Latitude 42 Brewing Company",
+            "type": "Strong Ale",
+            "abv": 10.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bigfoot",
+            "locationMade": "Chico, CA",
+            "brewery": "Sierra Nevada Brewing Co. ",
+            "type": "Strong Ale",
+            "abv": 9.6,
+            "ibu": 90,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Aged Prehistoric Rhetoric Old Ale",
+            "locationMade": "Bridgman, MI",
+            "brewery": "Tapistry Brewing",
+            "type": "Strong Ale",
+            "abv": 8.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Well Water",
+            "locationMade": "South Lyon, MI",
+            "brewery": "Witch's Hat Brewing Company",
+            "type": "Strong Ale ",
+            "abv": 14,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Saison Brett",
+            "locationMade": "Kansas City, MO",
+            "brewery": "Boulevard Brewing Co",
+            "type": "Belgian",
+            "abv": 8.5,
+            "ibu": 38,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Brune",
+            "locationMade": "Rulles, Luxembourg",
+            "brewery": "Brasserie Artisanale de Rulles",
+            "type": "Belgian",
+            "abv": 6.5,
+            "ibu": 31,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Escoffier",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Brewery Vivant",
+            "type": "Wild Ale",
+            "abv": 9.25,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Teeth of the Forest",
+            "locationMade": "Ishpeming, MI",
+            "brewery": "Cognition Brewing Company",
+            "type": "Belgian Blonde",
+            "abv": 6,
+            "ibu": 23,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "J Sirius",
+            "locationMade": "Frankfort, MI",
+            "brewery": "Stormcloud Brewing Company",
+            "type": "Belgian Dubbel",
+            "abv": 8,
+            "ibu": 20,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Vacillate #6",
+            "locationMade": "Bridgman, MI",
+            "brewery": "Transient Artisan Ales",
+            "type": "Farmhouse Ale",
+            "abv": 6,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Lil' Sour Puss",
+            "locationMade": "Ypsilanti, MI",
+            "brewery": "Arbor Brewing \nCompany Microbrewery",
+            "type": "Sour",
+            "abv": 5.9,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Battle Kriek",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "Arcadia Brewing Company",
+            "type": "American Wild Ale",
+            "abv": 7.4,
+            "ibu": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Marta Rita",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sour",
+            "abv": 6.8,
+            "ibu": 10,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Tamarindo",
+            "locationMade": "St-Jérôme, QC",
+            "brewery": "Brasserie Dieu du Ciel!",
+            "type": "Sour",
+            "abv": 4.9,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Strawberry Rhubarb Sour",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Brewery Vivant",
+            "type": "Sour",
+            "abv": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Kiwi's Playhouse",
+            "locationMade": "Brooklyn, NY",
+            "brewery": "Brooklyn Brewery",
+            "type": "Fruit",
+            "abv": 7.5,
+            "ibu": 35,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Goses Are Red",
+            "locationMade": "Anaheim, CA",
+            "brewery": "Bruery Terreux",
+            "type": "Sour",
+            "abv": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Blackcap Raspberry",
+            "locationMade": "Portland, OR",
+            "brewery": "Cascade Brewing Company",
+            "type": "Sour",
+            "abv": 7.6,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Divine Sauvage",
+            "locationMade": "San Diego, CA",
+            "brewery": "Green Flash Brewing Company",
+            "type": "Belgian Tripel",
+            "abv": 10.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Rojzilla",
+            "locationMade": "Dexter, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Sour",
+            "abv": 7.4,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hallo Ich Bin \nBerliner Weisse Mango",
+            "locationMade": "Copenhagen",
+            "brewery": "Mikkeller",
+            "type": "Sour",
+            "abv": 3.4,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Zure Kers",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Sour",
+            "abv": 6,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "Only Gose To Show Lime",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "One Well Brewing",
+            "type": "Sour",
+            "abv": 5.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Barrel Aged New Thing",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Stout",
+            "abv": 9.2,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Drop It Like It's Apricot",
+            "locationMade": "Sprinfield, MI",
+            "brewery": "Territorial Brewing Company",
+            "type": "Sour",
+            "abv": 5.4,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Sans Pagaie",
+            "locationMade": "Placentia, CA",
+            "brewery": "The Bruery",
+            "type": "American Wild Ale",
+            "abv": 5.8,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "Tart of Darkness",
+            "locationMade": "Placentia, CA",
+            "brewery": "The Bruery",
+            "type": "Sour",
+            "abv": 7.2,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "El Chapo",
+            "locationMade": "Armada, MI",
+            "brewery": "Blake's Hard Cider Company",
+            "type": "Cider",
+            "abv": 9,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Hungry Girl",
+            "locationMade": "Hazel Park, MI",
+            "brewery": "Cellarmen's",
+            "type": "Mead",
+            "abv": 6,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Blueberry Sky",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "One Well Brewing",
+            "type": "Cider",
+            "abv": 6.2,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Tequila Barrel \nAged Sunshine Nectar",
+            "locationMade": "Boulder, CO",
+            "brewery": "Redstone Meadery",
+            "type": "Mead",
+            "abv": 8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Peach Hard Cider",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Sierra Rose Ciders",
+            "type": "Cider",
+            "abv": 6.5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Nitro Fluff",
+            "locationMade": "Spring Lake, MI",
+            "brewery": "Vander Mill",
+            "type": "Cider",
+            "abv": 6.9,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Nunica Pine",
+            "locationMade": "Spring Lake, MI",
+            "brewery": "Vander Mill",
+            "type": "Cider",
+            "abv": 6.9,
+            "ibu": 20,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Drawing Down the Moon",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sahti",
+            "abv": 8.4,
+            "ibu": 12,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "Midnattsol",
+            "locationMade": "Ishpeming, MI",
+            "brewery": "Cognition Brewing Company",
+            "type": "Sahti",
+            "abv": 5,
+            "ibu": 8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Sälïnöflörä",
+            "locationMade": "Ishpeming, MI",
+            "brewery": "Cognition Brewing Company",
+            "type": "Other",
+            "abv": 10,
+            "ibu": 32,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Frootwood",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Fruit",
+            "abv": 8,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "La Parcela",
+            "locationMade": "Dexter, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Pumpkin",
+            "abv": 5.9,
+            "ibu": 22,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Mélange No. 3",
+            "locationMade": "Placentia, CA",
+            "brewery": "The Bruery",
+            "type": "Strong Ale",
+            "abv": 16.9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Triple Goddess Ginger",
+            "locationMade": "Ypsilanti, MI",
+            "brewery": "Unity Vibration",
+            "type": "Kombucha",
+            "abv": 8,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Pabst Blue Ribbon",
+            "locationMade": "Woodridge, IL",
+            "brewery": "Pabst Brewing Company",
+            "type": "Lager",
+            "abv": 4.6,
+            "ibu": 10,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Smoked Porter",
+            "locationMade": "Juneau, AK",
+            "brewery": "Alaskan Brewing Co.",
+            "type": "Smoked Beer",
+            "abv": 6.5,
+            "ibu": 45,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Barrel Aged Better Together",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Stout",
+            "abv": 13.5,
+            "ibu": 50,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Dicksmasher In the Rye",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Stout",
+            "abv": 12,
+            "ibu": 40,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Aged \nExpedition Stout",
+            "locationMade": "Comstock, MI",
+            "brewery": "Bell's Brewery",
+            "type": "Stout",
+            "abv": 13.2,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Orval",
+            "locationMade": "Villers-devant-Orval, \nLuxembourg",
+            "brewery": "Brasserie d'Orval",
+            "type": "Pale Ale",
+            "abv": 6.2,
+            "ibu": 32,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Blue Monk Special Reserve",
+            "locationMade": "Oostvleteren, West-Vlaanderen",
+            "brewery": "De Struise Brouwers",
+            "type": "Belgian Strong Dark Ale",
+            "abv": 10,
+            "ibu": 27,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Extra Special Critters",
+            "locationMade": "Millvale, PA",
+            "brewery": "Draai Laag Brewing Company",
+            "type": "Sour",
+            "abv": 9,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Double Barrel Big Bad Baptist",
+            "locationMade": "Salt Lake City, UT",
+            "brewery": "Epic Brewing Co. (Utah, Colorado)",
+            "type": "Stour",
+            "abv": 12,
+            "ibu": 65,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Oak & Orchard Syrah",
+            "locationMade": "Salt Lake City, UT",
+            "brewery": "Epic Brewing Co. (Utah, Colorado)",
+            "type": "Sour",
+            "abv": 8.5,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "All Day IPA",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "IPA",
+            "abv": 4.7,
+            "ibu": 42,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "DKML",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Founders Brewing Co.",
+            "type": "Malt Liquor",
+            "abv": 14.8,
+            "ibu": 32,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Discovery (Gluten Free)",
+            "locationMade": "Shipley, West Yorkshire",
+            "brewery": "Green's Beers",
+            "type": "Gluten Free",
+            "abv": 6.8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Quest (Gluten Free)",
+            "locationMade": "Shipley, West Yorkshire",
+            "brewery": "Green's Beers",
+            "type": "Gluten Free",
+            "abv": 8.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Flying Buffalo \nRussian Imperial Stout",
+            "locationMade": "Birmingham, MI",
+            "brewery": "Griffin Claw Brewing Company",
+            "type": "Stout",
+            "abv": 11,
+            "ibu": 25,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Harvest Ale",
+            "locationMade": "Middleton, Greater Manchester",
+            "brewery": "JW Lees and Co",
+            "type": "Barleywine",
+            "abv": 11.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hazel's Nuts",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Stout",
+            "abv": 9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Rye Hipster Brunch Stout",
+            "locationMade": "Grand Haven, MI",
+            "brewery": "Odd Side Ales",
+            "type": "Stout",
+            "abv": 11,
+            "ibu": 66,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Damsel In Distress",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co.",
+            "type": "Roggenbier",
+            "abv": 10.8,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Unfinished Business",
+            "locationMade": "Comstock Park, MI",
+            "brewery": "Perrin Brewing Co.",
+            "type": "Stout",
+            "abv": 13.1,
+            "ibu": 35,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Rum BA Kilting Me Softly",
+            "locationMade": "Bridgman, MI",
+            "brewery": "Tapistry Brewing",
+            "type": "Scotch Ale",
+            "abv": 8.9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Peanut Butter Porter",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Jaden James Brewery",
+            "type": "Porter",
+            "abv": 6.3,
+            "ibu": 34,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Fusion 46",
+            "locationMade": "Petaluma, CA",
+            "brewery": "Lagunitas Brewing Company",
+            "type": "IPA",
+            "abv": 12.8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Weizen Bam",
+            "locationMade": "Dexter, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Farmhouse Ale",
+            "abv": 4.5,
+            "ibu": 19,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Deliverance",
+            "locationMade": "Kalamazoo, MI",
+            "brewery": "Arcadia Brewing Company",
+            "type": "Brown Ale",
+            "abv": 9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Cherry Moon",
+            "locationMade": "Milford, MI",
+            "brewery": "River's Edge Brewing Company",
+            "type": "Fruit",
+            "abv": 5.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Moon Over Moore Lake",
+            "locationMade": "Milford, MI",
+            "brewery": "River's Edge Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Violin Monster",
+            "locationMade": "Ypsilanti, MI",
+            "brewery": "Arbor Brewing Company Microbrewery",
+            "type": "Dark Ale",
+            "abv": 9.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Arecibo",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Starcut Ciders",
+            "type": "Cider",
+            "abv": 6.8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Cranberry Cider",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Sierra Rose Ciders",
+            "type": "Cider",
+            "abv": 6.5,
+            "color": "Red"
+        },
+        {
+            "nameOfBeer": "Bam Biere",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Farmhouse Ale",
+            "abv": 4.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bam Noire",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Farmhouse Ale",
+            "abv": 4.3,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Calabaza Blanca",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Witbier",
+            "abv": 4.8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Oro De Calabaza",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Bière de Garde",
+            "abv": 8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "La Roja",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Wild Ale",
+            "abv": 7.2,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Biere De Mars",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Bière de Garde",
+            "abv": 7,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Madrugada Obscura",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Imperial Stout",
+            "abv": 8,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Fuego Del Otono",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Bière de Garde",
+            "abv": 8.1,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Maracaibo Especial",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Brown Ale",
+            "abv": 7.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Noel De Calabaza",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Dark Ale",
+            "abv": 9,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Chocolate Stout",
+            "locationMade": "Oregon",
+            "brewery": "Rouge Ales",
+            "type": "Stout",
+            "abv": 9.5,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Belipago",
+            "locationMade": "Detroit, MI",
+            "brewery": "Jolly Pumpkin Artisan Ales",
+            "type": "Belgian IPA",
+            "abv": 6,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Loopalynns Sanity Elixir ",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "IPA",
+            "abv": 7.5,
+            "ibu": 50,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Noob Noob ",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5.8,
+            "ibu": 26,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Low End Theory ",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "IPA",
+            "abv": 6,
+            "ibu": 68,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Anton's Animals",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sour",
+            "abv": 5.2,
+            "ibu": 6,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Second to Last Word",
+            "locationMade": "Detroit, MI",
+            "brewery": "Batch Brewing Company",
+            "type": "Sour",
+            "abv": 6.5,
+            "ibu": 5,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Blue Gold",
+            "locationMade": "Spring Lake, MI",
+            "brewery": "Vander Mill",
+            "type": "Cider",
+            "abv": 6.9,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Grand River Red",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Red Ale",
+            "abv": 6,
+            "ibu": 27,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hop Grenade",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "IPA",
+            "abv": 9,
+            "ibu": 80,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Oktoberfest",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Märzen",
+            "abv": 5.5,
+            "ibu": 20,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Ballgame Beer",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Pale Ale",
+            "abv": 5.1,
+            "ibu": 42,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Malgoth De Ore",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Blonde Ale",
+            "abv": 10.2,
+            "ibu": 25,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Double Dwarf",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Altbier",
+            "abv": 10.3,
+            "ibu": 49,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hockeytown Hefeweizen",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Hefeweizen",
+            "abv": 4.6,
+            "ibu": 18,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Emo Saisan",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Farmhouse Ale",
+            "abv": 5,
+            "ibu": 23,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Broadway Light",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Lager",
+            "abv": 4.3,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Detroit Dwarf",
+            "locationMade": "Detroit, MI",
+            "brewery": "Detroit Beer Company",
+            "type": "Altbier",
+            "abv": 6.8,
+            "ibu": 40,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bohemian Lager",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Lager",
+            "abv": 5.2,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Honey Porter",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Porter",
+            "abv": 5.2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Motor City Pale Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Pale Ale",
+            "abv": 4.8,
+            "ibu": 33,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Nut Brown Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Ale",
+            "abv": 5.2,
+            "ibu": 26,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "India Pale Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Pale Ale",
+            "abv": 7,
+            "ibu": 85,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Corktown Stout",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Stout",
+            "abv": 5.6,
+            "ibu": 50,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Summer Brew",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Wheat",
+            "abv": 7.2,
+            "ibu": 19,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Blueberry Wheat",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Wheat",
+            "abv": 6.7,
+            "ibu": 13,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Pumpkin Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Ale",
+            "abv": 9.2,
+            "ibu": 15,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Belgian Tripel",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Golden Ale",
+            "abv": 9.2,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Winter Ale",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Ale",
+            "abv": 8.8,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Old Gear Oil",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Sour Ale",
+            "abv": 5.2,
+            "ibu": 26,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hard Cider",
+            "locationMade": "Detroit, MI",
+            "brewery": "Motor City Brewing Works",
+            "type": "Cider",
+            "abv": 5.6,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Aardvark Blonde",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.9,
+            "ibu": 18,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Squirrel Nut Brown",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Brown Ale",
+            "abv": 5,
+            "ibu": 34,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Blues Berry Blonde",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.9,
+            "ibu": 18,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Session IPA",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "IPA",
+            "abv": 4.4,
+            "ibu": 38,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "This is a Windsor Beer Pale Ale",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Pale Ale",
+            "abv": 5.19,
+            "ibu": 34,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Feather Hat Guy P.A",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "IPA",
+            "abv": 5.8,
+            "ibu": 53,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Fla'mango Blonde",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 6.02,
+            "ibu": 9.81,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Galaxy IPA",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.6,
+            "ibu": 72,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "\"Next of Stage\" Amber",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Amber Ale",
+            "abv": 5,
+            "ibu": 33,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Turbulent Peanut Butter Chocolate Porter",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Robust Porter",
+            "abv": 5.4,
+            "ibu": 30,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Motown Honey Brown",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Brown Ale",
+            "abv": 6,
+            "ibu": 31,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Imperial Coffee Stout",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Imperial Stout",
+            "abv": 8.4,
+            "ibu": 21,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Fuzzy Peach",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.9,
+            "ibu": 18,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Belgian Wit",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Witbier",
+            "abv": 4.6,
+            "ibu": 11,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Dirty Blonde",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Imperial Blonde",
+            "abv": 7.3,
+            "ibu": 15,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Wannabe Wheat IPA",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Weissen IPA",
+            "abv": 5.9,
+            "ibu": 45,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Imperal Heffy",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Imperial Hefeweizen",
+            "abv": 7.8,
+            "ibu": 16,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Porter",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Porter",
+            "abv": 5.4,
+            "ibu": 30,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Mike'ale Jackson Coffee Blonde",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Blonde Ale",
+            "abv": 5.5,
+            "ibu": 20,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Blueberry Wheat",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Weissen",
+            "abv": 5.1,
+            "ibu": 11,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Downtown Strong",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Belgian Strong",
+            "abv": 8.7,
+            "ibu": 26,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Hefeweizen Wheat",
+            "locationMade": "Windsor, On",
+            "brewery": "Craft Heads Brewing",
+            "type": "Weissen",
+            "abv": 5.1,
+            "ibu": 11,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Whango Mango Wheat",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Pale Wheat Malt",
+            "abv": 4.9,
+            "ibu": 14,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Better Life Choices IPA",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "IPA",
+            "abv": 6.5,
+            "ibu": 85,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Vanilla Java Porter",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Porter",
+            "abv": 5,
+            "ibu": 13,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Teufel",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Malt Liquor",
+            "abv": 10.5,
+            "ibu": 18,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Atwater's Lager",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "German Hersbrucker",
+            "abv": 4.9,
+            "ibu": 11,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Going Steady IPA",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "IPA",
+            "abv": 4.6,
+            "ibu": 55,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Detroit Pale Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Pale Ale",
+            "abv": 5.7,
+            "ibu": 49,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Decandent Dark Chocolate Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Ale",
+            "abv": 5,
+            "ibu": 11,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Corktown Rye IPA",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "IPA",
+            "abv": 6.2,
+            "ibu": 68,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Pumpkin Spice Latte Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Ale",
+            "abv": 7,
+            "ibu": 28,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Christmas Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Ale",
+            "abv": 6.1,
+            "ibu": 28,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bockefeller",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Malt Liquor",
+            "abv": 7,
+            "ibu": 25,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Bloktoberfest",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Marzen Lager",
+            "abv": 6.1,
+            "ibu": 32,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Blueberry Cobbler Ale",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Ale",
+            "abv": 8,
+            "ibu": 38,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Lip Lock Cherry Stout",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Stout",
+            "abv": 6,
+            "ibu": 16,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Traverse City Cherry Wheat",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Wheat Ale",
+            "abv": 5,
+            "ibu": 13,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Voodoo Vator ",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Munich Malt",
+            "abv": 8,
+            "ibu": 25,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Purple Gang Pilsner",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "German Pilsner",
+            "abv": 4.8,
+            "ibu": 32,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "D-Light",
+            "locationMade": "Grand Rapids, MI",
+            "brewery": "Atwater Brewery",
+            "type": "Kölsch",
+            "abv": 4.2,
+            "ibu": 14,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Short's Locals Light",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Light Lager",
+            "abv": 5.2,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Imperial Abnormal Genius",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Golden Ale",
+            "abv": 8.3,
+            "ibu": 53,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Imperial Aorta Ale",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Red Ale",
+            "abv": 8.3,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Imperial Black Cherry Porter ",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Porter",
+            "abv": 8.7,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Imperial Black Licorice Lager",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Lager",
+            "abv": 8,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Blanco Suave",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "White Ale",
+            "abv": 6.6,
+            "ibu": 21,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bourbon Barrel Aged Black Cherry Porter",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Porter",
+            "abv": 11.3,
+            "ibu": 35,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Citra Locals",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Lager",
+            "abv": 5.2,
+            "ibu": 30,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Dr. Thrillride",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Porter",
+            "abv": 5,
+            "ibu": 35,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Fun Tina",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Wheat Ale",
+            "abv": 5,
+            "ibu": 20,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Goodnight Bodacious",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "India Pale Ale",
+            "abv": 10.6,
+            "ibu": 100,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Juicy Tree",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Blonde Wheat",
+            "abv": 10.1,
+            "ibu": 54,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Peachy Pom Pom",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sour Ale",
+            "abv": 8.2,
+            "ibu": 2,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Power of Love ",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Shandy",
+            "abv": 2.7,
+            "ibu": 20,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Psychedelic Cat Grass",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "American India Pale Ale",
+            "abv": 7.6,
+            "ibu": 72,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Woodmaster",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Imperial Brown",
+            "abv": 10.5,
+            "ibu": 23,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Anni Ale 13irteen",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sour Ale",
+            "abv": 8.7,
+            "ibu": 30,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Autumn Ale",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Bitter",
+            "abv": 5.9,
+            "ibu": 45,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Beard of Zeus",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Lager",
+            "abv": 5.3,
+            "ibu": 82,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Chatterbox",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 6,
+            "ibu": 65,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Controversiale",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 6.6,
+            "ibu": 65,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Exeter",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sour Ale",
+            "abv": 6.5,
+            "ibu": 12,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Good Humans",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Brown Ale",
+            "abv": 9.15,
+            "ibu": 40,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Melt My Brain",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Golden Ale",
+            "abv": 3.8,
+            "ibu": 18,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Nicie",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Wheat Ale",
+            "abv": 5.2,
+            "ibu": 25,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Prolonged Enjoyment",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 3.5,
+            "ibu": 45,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Soft Parade Shandy",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Shandy",
+            "abv": 4.2,
+            "ibu": 12,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "The Double Magician",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Red Ale",
+            "abv": 7.6,
+            "ibu": 49,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Yosemite Scooter",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5.5,
+            "ibu": 65,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Bellaire Brown",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 7,
+            "ibu": 19,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Huma Lupalicious",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "IPA",
+            "abv": 7.7,
+            "ibu": 95,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Local's Light",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Lager",
+            "abv": 5.2,
+            "ibu": 11,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Space Rock",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Pale Ale",
+            "abv": 5,
+            "ibu": 72,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Save the Date",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sour Ale",
+            "abv": 6.5,
+            "ibu": 10,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Schnozzleberry Griffin",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Wheat Ale",
+            "abv": 5,
+            "ibu": 24,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "September Bliss",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Rye Lager",
+            "abv": 4,
+            "ibu": 60,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "She's a Beaut",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Stout",
+            "abv": 7.7,
+            "ibu": 32,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Shortsicle ",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Cream Ale",
+            "abv": 4.7,
+            "ibu": 29,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Skulletmaster",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Cream Ale",
+            "abv": 7,
+            "ibu": 68,
+            "color": "Light"
+        },
+        {
+            "nameOfBeer": "Slippery Brit",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "English Pale Ale",
+            "abv": 5.4,
+            "ibu": 52,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Slow Jams",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sweet Stout",
+            "abv": 6.5,
+            "color": "Dark"
+        },
+        {
+            "nameOfBeer": "Tequila Sauna",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Golden Sour",
+            "abv": 7.5,
+            "ibu": 4,
+            "color": "Medium"
+        },
+        {
+            "nameOfBeer": "Run",
+            "locationMade": "Bellaire, MI",
+            "brewery": "Short's Brewing Company",
+            "type": "Sour Stout",
+            "abv": 11,
+            "ibu": 8,
+            "color": "Medium"
+        }
+    ]
+}
