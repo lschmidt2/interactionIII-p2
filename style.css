@@ -89,9 +89,16 @@
 
 .back {
   text-decoration: none;
-  color: black;
+  border-bottom: solid 1px deepskyblue;    
+  color: deepskyblue;
   margin-bottom: 25px;
   float: left;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-top: 55px;
 }
 
 .beercontainer {
@@ -105,28 +112,45 @@
   width: 100%;
   position: relative;
   float: left;
-  background: yellow;
+  background: #FED7B3;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  width: 20%;
+  height: 70px;
   float: left;
   position: relative;
   margin: 5px;
   padding: 5px;
-  background: pink;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   text-align: center;
+  font-style: normal;
+  margin-left: 55px;
+  margin-top: 15px;
 }
 
 .damage {
   z-index: 3;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  margin-left: 55px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .quarter {
-  background: red;
+  margin-left: 55px;
+  margin-bottom: 25px;
+  background: black;
   width: 25%;
-  height: 80%;
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -134,9 +158,11 @@
 }
 
 .half {
-  background: red;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  background: black;
   width: 50%;
-  height: 80%;
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -144,9 +170,11 @@
 }
 
 .threequarter {
-  background: red;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  background: black;
   width: 75%;
-  height: 80%;
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -154,9 +182,11 @@
 }
 
 .full {
-  background: red;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  background: black;
   width: 100%;
-  height: 80%;
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 0;
