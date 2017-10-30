@@ -136,8 +136,36 @@
   float: left;
   background: #FED7B3;
   z-index: 4;
-  
 }
+
+.beercontainergood {
+  width: 33%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.beercontainermedium {
+  width: 33%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 33%;
+  top: 0;
+}
+
+.beercontainerbad {
+  width: 33%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 66%;
+  top: 0;
+}
+
+
 
 .box {
   background: transparent;

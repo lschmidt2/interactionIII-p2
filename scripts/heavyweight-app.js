@@ -1,34 +1,24 @@
 $(document).ready(function() {
+      $.ajax({
+        type: 'GET',
+        //insert your the url of your JSON file hosted by github
+        url: 'https://raw.githubusercontent.com/lschmidt2/interactionIII-p2/master/json-attempt',
+        dataType: 'json',
+        success: function(data) {
 
-  var userDamage = 0;
+          $.each(data, function(i, beer) {
+                if (beer.abv >= 0 && beer.abv <= 7) {
+                  $('.beercontainergood').append("<div>" + beer.nameOfBeer + "</div");
+                } else if (beer.abv >= 7.1 && beer.abv <= 11) {
+                  $('.beercontainermedium').append("<div>" + beer.nameOfBeer + "</div");
+                } else(beer.abv >= 11.1 && beer.abv <= 15)
+                $('.beercontainerbad').append("<div>" + beer.nameOfBeer + "</div");
 
-  function handleBoxClick() {
-var abvNumber = parseInt($(this).attr('data-abv'));
+              });
 
-      if (abvNumber >= 0 && abvNumber <= 8) {
-        $('.beerresults').html('<div class="damage">Damage to Your Body</div><div class="quarter"> </div>');
-      } else if (abvNumber >= 8.01 && abvNumber <= 14) {
-        $('.beerresults').html('<div class="damage">Damage to Your Body</div><div class="half"> </div>');
-      } else if (abvNumber >= 14.01 && abvNumber <= 18) {
-        $('.beerresults').html('<div class="damage">Damage to Your Body</div><div class="threequarter"> </div>');
-      } else {
-        $('.beerresults').html('<div class="damage">Damage to Your Body</div><div class="full"> </div>');
-      }
-    }
 
-  $.ajax({
-    type: 'GET',
-    url: 'https://raw.githubusercontent.com/lschmidt2/interactionIII-p2/master/json-attempt',
-    dataType: 'json',
-    success: function(data) {
-      $.each(data, function(i, beer) {
-        $('.beercontainer').append('<div data-abv="' + beer.abv + '" class="box">' + beer.nameOfBeer + '</div>');
+
+            }
+          });
+
       });
-
-$('.box').click(handleBoxClick);
-    },
-  });
-
-  $('.box').click(handleBoxClick);
-
-});
