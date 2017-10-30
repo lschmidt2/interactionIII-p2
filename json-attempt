@@ -1,6 +1,4 @@
-{
-    "Form Responses 1": [],
-    "Sheet1": [
+[
         {
             "nameOfBeer": "Loch Down Scotch Ale",
             "locationMade": "Kalamazoo",
@@ -2598,4 +2596,3 @@
             "color": "Medium"
         }
     ]
-}
