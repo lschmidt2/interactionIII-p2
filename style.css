@@ -1,42 +1,48 @@
 .container {
-  background: white;
+  background: #FED7B3;
   width: 100%;
   padding: 0 auto;
   position: absolute;
-  s top: 0;
+  top: 0;
   left: 0;
 }
 
 .input {
-  background: white;
+  background: #FED7B3;
   width: 75%;
   position: relative;
   margin: 0 auto;
+  margin-top: 60px;
   margin-bottom: 60px;
   padding: 5px;
 }
 
 .question {
-  background: white;
+  background: transparent;
   width: 100%;
   padding: 10px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-size: 26pt;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;    
 }
 
 .answer {
-  background: lightsteelblue;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
   width: 14.2%%;
   height: auto;
   position: relative;
   float: left;
-  padding: 10px;
-  margin: 5px;
-  1% 0 0;
-  font-family: sans-serif;
-  font-size: 22pt;
-  text-transform: uppercase;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px; 
 }
 
 .answer:hover {
@@ -48,7 +54,8 @@
 }
 
 .result {
-  background: lightyellow;
+  background: transparent;
+  color: transparent;
   width: 100%;
   padding: 10px;
   float: left;
@@ -69,10 +76,15 @@
 .link {
   width: 500px;
   height: 500px;
-  background: lime;
+  background: transparent;
+  border-bottom: solid 1px deepskyblue;
   margin: 0 auto;
   text-decoration: none;
-  color: black;
+  color: deepskyblue;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 
