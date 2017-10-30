@@ -30,5 +30,5 @@ $('.box').click(handleBoxClick);
   });
 
   $('.box').click(handleBoxClick);
-
+  
 });

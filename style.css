@@ -51,7 +51,21 @@
 
 
 .clicked {
-	background-color: lightblue;
+	background: lightblue;
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  width: 14.2%%;
+  height: auto;
+  position: relative;
+  float: left;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px; 
 }
 
 .result {

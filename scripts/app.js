@@ -64,4 +64,8 @@ $('.answer').click(function() {
   
 });
 
+$(".answer").click(function () {
+   $(this).addClass("clicked");
+});
+
 });
