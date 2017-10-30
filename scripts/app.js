@@ -55,12 +55,12 @@ $('#five').click(function() {
 $('.answer').click(function() {
   var cur = parseInt($('.equation').text());
   if (cur >= 0 && cur <= 7) {
-		$('.link').attr('href', '/html/lightweight.html');
+		$('.link').attr('href', "/html/lightweight.html");
   } else if (cur >= 7.1 && cur <= 11) {
-		$('.link').attr('href', '/html/mediumweight.html');
+		$('.link').attr('href', "/html/mediumweight.html");
   } else (cur >= 11.1 && cur <= 15) {
-		$('.link').attr('href', '/html/heavyweight.html');
-  }
+		$('.link').attr('href', "/html/heavyweight.html");
+  } 
 });
 
 });
