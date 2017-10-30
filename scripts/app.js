@@ -9,6 +9,7 @@ $('.answer').click(function() {
 	$('#total').text(userScore);
 });
 
+
 $('#foot').click(function() {
 	var inputFoot = parseInt($(this).attr('data-inch'));
 	userHeight = userHeight + inputFoot;
