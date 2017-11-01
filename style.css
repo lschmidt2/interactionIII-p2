@@ -138,8 +138,8 @@
   z-index: 4;
 }
 
-.beercontainergood {
-  width: 33%;
+.beercontainer-1 {
+  width: 10%;
   height: auto;
   background: yellow;
   position: absolute;
@@ -147,25 +147,86 @@
   top: 0;
 }
 
-.beercontainermedium {
-  width: 33%;
+.beercontainer-2 {
+  width: 10%;
   height: auto;
   background: yellow;
   position: absolute;
-  left: 33%;
+  left: 10%;
   top: 0;
 }
 
-.beercontainerbad {
-  width: 33%;
+.beercontainer-3 {
+  width: 10%;
   height: auto;
   background: yellow;
   position: absolute;
-  left: 66%;
+  left: 20%;
   top: 0;
 }
 
+.beercontainer-4 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
 
+.beercontainer-5 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
+
+.beercontainer-6 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.beercontainer-7 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 60%;
+  top: 0;
+}
+
+.beercontainer-8 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 70%;
+  top: 0;
+}
+
+.beercontainer-9 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 80%;
+  top: 0;
+}
+
+.beercontainer-10 {
+  width: 10%;
+  height: auto;
+  background: yellow;
+  position: absolute;
+  left: 90%;
+  top: 0;
+}
 
 .box {
   background: transparent;
