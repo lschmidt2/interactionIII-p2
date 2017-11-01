@@ -9,64 +9,75 @@
 	<script src="scripts/jquery-ui.js"></script>
 	<!-- JS Libraries -->
 	<script src="scripts/plugins.js"></script>
+	<!-- Scroll To Library -->
+	<script src="scripts/jquery.scrollTo.js"></script>
+	<!-- Annyang Library -->
+	<script src="scripts/annyang.js"></script>
 	<!-- Custom JS Script -->
 	<script src="scripts/app.js"></script>
-    
-    <script src="https://use.typekit.net/rta5ecp.js"></script>
+	<!-- Typeface -->
+	<script src="https://use.typekit.net/rta5ecp.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
     
 </head>
+
 <body>
 	<div class="container">
-  <div class="input cf">
-    <div class="question">Click your gender</div>
-    <div class="answer" id="male" data-number=1>Male</div>
-    <div class="answer" id="female" data-number=3>Female</div>
-  </div>
-  <div class="input cf">
-    <div class="question">Input your weight</div>
-    <div class="answer" id="hundred" data-number=0 data-pound=100>100</div>
-    <div class="answer" id="fifty" data-number=0 data-pound=50>50</div>
-    <div class="answer" id="twentyfive" data-number=0 data-pound=25>25</div>
-    <div class="answer" id="ten" data-number=0 data-pound=10>10</div>
-    <div class="answer" id="five" data-number=0 data-pound=5>5</div>
-    <div class="result" id="weightresult">0 lbs</div>
-  </div>
-  <div class="input cf">
-    <div class="question">Input your height</div>
-    <div class="answer" id="foot" data-number=0 data-inch=12>1ft</div>
-    <div class="answer" id="inch" data-number=0 data-inch=1>1in</div>
-    <div class="result" id="heightresult">0 in</div>
-  </div>
-  <div class="input cf">
-    <div class="question">What is your ethnicity</div>
-    <div class="answer" id="white" data-number=1>White</div>
-    <div class="answer" id="african" data-number=1>Black/African American</div>
-    <div class="answer" id="native" data-number=3>Native American</div>
-    <div class="answer" id="asian" data-number=5>Asian/Pacific Islander</div>
-    <div class="answer" id="hispanic" data-number=2>Hispanic</div>
-  </div>
-  <div class="input cf">
-    <div class="question">What is your level of athleticism</div>
-    <div class="answer" id="light" data-number=4>Light</div>
-    <div class="answer" id="moderate" data-number=2>Moderate</div>
-    <div class="answer" id="high" data-number=0>High</div>
-  </div>
-  <div class="input cf">
-    <div class="question">How many drinks a week do you consume on average?</div>
-    <div class="answer" id="zero" data-number=0>0</div>
-    <div class="answer" id="onetothree" data-number=1>1-3</div>
-    <div class="answer" id="fourtosix" data-number=2>4-6</div>
-    <div class="answer" id="seventoten" data-number=3>7-10</div>
-    <div class="answer" id="tenplus" data-number=4>10+</div>
-  </div>
-  <div class="equation" id="total">
-    0
-  </div>
-  <a href="html/lightweight.html" class="link">
-  SEE RESULTS
-  </a>
-</div>
+	  <div class="input cf" id="question-0">
+	    <div class="question hello-answer" id="hello">Say "Hello" to Begin!</div>
+	  </div>
 
+	  <div class="input cf" id="question-1">
+	    <div class="question">Click your gender</div>
+	    <div class="answer ques-1-ans" id="male" data-number=1>Male</div>
+	    <div class="answer ques-1-ans" id="female" data-number=3>Female</div>
+	  </div>
+	  <div class="input cf " id="question-2">
+	    <div class="question">What's your weight?</div>
+	    <div class="answer ques-2-ans" id="skin" data-number=5>0-100lb <br> "Skin and Bones"</div>
+	    <div class="answer ques-2-ans" id="barely" data-number=4>100-150lb <br> "Barely There"</div>
+	    <div class="answer ques-2-ans" id="betty" data-number=3>150-200lb <br> "Middle Ground"</div>
+	    <div class="answer ques-2-ans" id="dense" data-number=2>200-250lb <br> "Dense"</div>
+	    <div class="answer ques-2-ans" id="incharge" data-number=1>250 + <br> "Large and Incharge"</div>
+	  </div>
+	  <div class="input cf" id="question-3">
+	    <div class="question">Input your height</div>
+	    <div class="answer ques-3-ans" id="funsized" data-number=5>0ft-4ft <br> "Fun Sized"</div>
+	    <div class="answer ques-3-ans" id="short" data-number=4>4ft-5ft <br> "Short"</div>
+	    <div class="answer ques-3-ans" id="average" data-number=3>5ft-6ft <br> "Average"</div>
+	    <div class="answer ques-3-ans" id="tall" data-number=2>6ft-7ft <br> "Tall"</div>
+	    <div class="answer ques-3-ans" id="giant" data-number=1>7ft + <br> "Giant"</div>
+	  </div>
+	  <div class="input cf" id="question-4">
+	    <div class="question">What is your race</div>
+	    <div class="answer ques-4-ans" id="white" data-number=1>White</div>
+	    <div class="answer ques-4-ans" id="african" data-number=1>Black/African American</div>
+	    <div class="answer ques-4-ans" id="native" data-number=3>Native American</div>
+	    <div class="answer ques-4-ans" id="asian" data-number=5>Asian</div>
+	    <div class="answer ques-4-ans" id="hispanic" data-number=2>Hispanic</div>
+	  </div>
+	  <div class="input cf" id="question-5">
+	    <div class="question">What is your level of athleticism</div>
+	    <div class="answer ques-5-ans" id="light" data-number=4>Light</div>
+	    <div class="answer ques-5-ans" id="moderate" data-number=2>Moderate</div>
+	    <div class="answer ques-5-ans" id="high" data-number=0>High</div>
+	  </div>
+	  <div class="input cf" id="question-6">
+	    <div class="question">How many drinks a week do you consume on average?</div>
+	    <div class="answer ques-6-ans" id="zero" data-number=0>0</div>
+	    <div class="answer ques-6-ans" id="onetothree" data-number=1>1-3</div>
+	    <div class="answer ques-6-ans" id="fourtosix" data-number=2>4-6</div>
+	    <div class="answer ques-6-ans" id="seventoten" data-number=3>7-10</div>
+	    <div class="answer ques-6-ans" id="tenplus" data-number=4>10+</div>
+	  </div>
+	  <div class="equation" id="total">
+	    0
+	  </div>
+	  <div class="input cf" id="question-7">
+	    <a href="html/lightweight.html" class="link" id="linkresult"><div>
+	  SEE RESULTS
+	    </div></a>
+	  </div>
+	</div>
 </body>
 </html>
