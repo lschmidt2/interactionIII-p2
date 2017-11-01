@@ -22,14 +22,15 @@
   background: transparent;
   width: 100%;
   padding: 10px;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;    
+  font-size: 40px;
 }
 
+
 .answer {
-  background: #FED7B3;
+  background: transparent;
   border: 3px solid white;
   border-radius: 5px;
   color: white;
@@ -40,19 +41,18 @@
   padding: 15px;
   margin-top: 20px;
   margin-left: 20px;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .answer:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
-
 .clicked {
-	background: deepskyblue;
+  background: deepskyblue;
   border: 3px solid white;
   border-radius: 5px;
   color: white;
@@ -63,23 +63,23 @@
   padding: 15px;
   margin-top: 20px;
   margin-left: 20px;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .result {
   width: 100%;
   padding: 10px;
   float: left;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   margin-top: 20px;
   border-radius: 5px;
-  border: 3px solid white; 
+  border: 3px solid white;
 }
 
 .equation {
@@ -100,7 +100,7 @@
   margin: 0 auto;
   text-decoration: none;
   color: deepskyblue;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -108,11 +108,11 @@
 
 .back {
   text-decoration: none;
-  border-bottom: solid 1px deepskyblue;    
+  border-bottom: solid 1px deepskyblue;
   color: deepskyblue;
   margin-bottom: 25px;
   float: right;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -240,7 +240,7 @@
   position: relative;
   margin: 5px;
   padding: 5px;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -252,7 +252,7 @@
 
 .damage {
   z-index: 4;
-  font-family: "aktiv-grotesk",sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-style: normal;
   margin-left: 55px;
   font-weight: 700;
@@ -310,7 +310,6 @@
 }
 
 
-
 /* DON'T DELETE THIS */
 
 html {
@@ -353,7 +352,9 @@ html {
   box-sizing: border-box;
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -361,9 +362,11 @@ body {
   margin: 0;
 }
 
+
 /* Clear Float */
 
-.cf:before,.cf:after {
+.cf:before,
+.cf:after {
   content: " ";
   /* 1 */
   display: table;
