@@ -1,68 +1,65 @@
-#results-panel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #FED7B3;
-  width: 100vw;
-  height: 100vh;
-  padding: 5px;
-}
-
 .container {
-  background: #FED7B3;
   width: 100%;
   height: auto;
   position: absolute;
   top: 0;
   left: 0;
+
 }
 
 .input {
-  background: #FED7B3;
+  background:transparent;
   width: 100vw;
   height: 100vh;
   position: relative;
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
   padding: 5px;
+  
+   
 }
 
 .question {
   background: transparent;
   width: 100%;
   padding: 10px;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 15%;
+  
 }
 
+.center-all-container{    
+    
+}
 
 .answer {
-  background: transparent;
-  border: 3px solid white;
+  background:transparent;
+  border: 4px solid white;
   border-radius: 5px;
   color: white;
-  width: 14.2%%;
+  width: 15%;
   height: auto;
   position: relative;
-  float: left;
   padding: 15px;
   margin-top: 20px;
-  margin-left: 20px;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: 43%;
+  text-align: center;
 }
 
 .answer:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
+
 .clicked {
-  background: deepskyblue;
+	background: deepskyblue;
   border: 3px solid white;
   border-radius: 5px;
   color: white;
@@ -73,23 +70,23 @@
   padding: 15px;
   margin-top: 20px;
   margin-left: 20px;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 20px; 
 }
 
 .result {
   width: 100%;
   padding: 10px;
   float: left;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   margin-top: 20px;
   border-radius: 5px;
-  border: 3px solid white;
+  border: 3px solid white; 
 }
 
 .equation {
@@ -110,7 +107,7 @@
   margin: 0 auto;
   text-decoration: none;
   color: deepskyblue;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -118,18 +115,18 @@
 
 .back {
   text-decoration: none;
-  border-bottom: solid 1px deepskyblue;
+  border-bottom: solid 1px deepskyblue;    
   color: deepskyblue;
   margin-bottom: 25px;
   float: right;
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
   margin-left: 55px;
   z-index: 9;
   position: fixed;
-  top: 25px;
+  top: 15%;
 }
 
 .beercontainer {
@@ -151,92 +148,143 @@
 
 .beercontainer-1 {
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
+  color: white;
+  background: black;
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 10%;
 }
 
-.beercontainer-2 {
+.beercontainer-2 { 
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
+  background:black;
+  color: white;
+  margin-bottom: 20px;
   position: absolute;
   left: 10%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-3 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;    
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
+  background:black;
+  color: white;
+  margin-bottom: 20px;
   position: absolute;
   left: 20%;
-  top: 0;
+  top: 10%;
+  font-size: 15px;
 }
 
 .beercontainer-4 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 30%;
-  top: 0;
+  top: 10%;;
 }
 
 .beercontainer-5 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 40%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-6 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;    
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-7 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;    
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 60%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-8 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 70%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-9 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 80%;
-  top: 0;
+  top: 10%;
 }
 
 .beercontainer-10 {
+  font-family: "aktiv-grotesk",sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin-bottom: 20px;    
   width: 10%;
-  height: auto;
-  background: yellow;
+  height: 100%;
   position: absolute;
   left: 90%;
-  top: 0;
+  top: 10%;
 }
 
 .box {
@@ -390,3 +438,4 @@ body {
 .cf {
   *zoom: 1;
 }
+
