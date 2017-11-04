@@ -9,17 +9,6 @@ $('.answer').click(function() {
 	$(this).addClass("clicked");
 })
 
-
-$('.answer').click(function() {
-  var cur = parseInt($('.equation').text());
-  if (cur >= 0 && cur <= 10) {
-		$('.link').attr('href', 'html/lightweight.html');
-  } else if (cur >= 10.1 && cur <= 17) {
-		$('.link').attr('href', 'html/mediumweight.html');
-  } else {
-		$('.link').attr('href', 'html/heavyweight.html');
-  }
-});
   
   
   $(".hello-answer").click(function() {
@@ -66,6 +55,10 @@ $('.answer').click(function() {
 
       'female': function() {
         $('#female').click();
+      },
+      
+      'other': function() {
+	    $('#other').click();
       },
       
       'skin and bones': function() {
@@ -166,24 +159,26 @@ $('.answer').click(function() {
       
       'finished': function() {
 
-//         $('#linkresult').click();
+         $('body').scrollTo($('#results-panel'), 1000, function() {});
         
         var resultPage;
 		var cur = parseInt($('.equation').text());
 
-		if (cur >= 0 && cur <= 10) {
-			resultPage = 'light';
-		} else if (cur >= 10.1 && cur <= 17) {
+		if (cur >= 0 && cur <= 6) {
+			resultPage = 'heavy';
+		} else if (cur >= 6.1 && cur <= 17) {
 			resultPage = 'medium';
 		} else {
-			resultPage = 'heavy';
+			resultPage = 'light';
 		}
 		
         displayResults(resultPage);
       },
       
-      'thank you': function() {
-	  	location.reload();	      
+      'start over': function() {
+	  	location.reload();
+	  	$(window).scrollTop(0);
+
       }
     };
    
@@ -208,28 +203,28 @@ $('.answer').click(function() {
 	    dataType: 'json',
 	    success: function(data) {
 				
-			$('.beer-col').html('');
+			
 			$('#results-panel').fadeIn();
 				
 			if (resultPage == 'light') {
 			      $.each(data, function(i, beer) {
-			        if (beer.abv >= 0 && beer.abv <= 1.7) {
+			        if (beer.abv >= 0 && beer.abv <= 1) {
 			          $('.beercontainer-1').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 1.71 && beer.abv <= 3.5) {
+			        } else if (beer.abv >= 1.1 && beer.abv <= 2) {
 			          $('.beercontainer-2').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 3.51 && beer.abv <= 5.3) {
+			        } else if (beer.abv >= 2.1 && beer.abv <= 3) {
 			          $('.beercontainer-3').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 5.31 && beer.abv <= 7) {
+			        } else if (beer.abv >= 5.1 && beer.abv <= 6) {
 			          $('.beercontainer-4').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 7.1 && beer.abv <= 8.8) {
+			        } else if (beer.abv >= 6.1 && beer.abv <= 7) {
 			          $('.beercontainer-5').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 8.81 && beer.abv <= 10.6) {
+			        } else if (beer.abv >= 7.1 && beer.abv <= 8) {
 			          $('.beercontainer-6').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 10.61 && beer.abv <= 12.5) {
-			          $(".beercontainer-7 ").append(" < div > " + beer.nameOfBeer + " < /div");
-			        } else if (beer.abv >= 12.51 && beer.abv <= 14.3) {
+			        } else if (beer.abv >= 8.1 && beer.abv <= 11.5) {
+			          $(".beercontainer-7 ").append("<div> " + beer.nameOfBeer + "</div");
+			        } else if (beer.abv >= 11.51 && beer.abv <= 13.3) {
 			          $('.beercontainer-8').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 14.31 && beer.abv <= 16.1) {
+			        } else if (beer.abv >= 13.31 && beer.abv <= 15.1) {
 			          $('.beercontainer-9').append("<div>" + beer.nameOfBeer + "</div");
 			        } else {
 			          $('.beercontainer-10').append("<div>" + beer.nameOfBeer + "</div");
@@ -250,7 +245,7 @@ $('.answer').click(function() {
 			        } else if (beer.abv >= 8.81 && beer.abv <= 10.6) {
 			          $('.beercontainer-6').append("<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 10.61 && beer.abv <= 12.5) {
-			          $(".beercontainer-7 ").append(" < div > " + beer.nameOfBeer + " < /div");
+			          $(".beercontainer-7 ").append("<div> " + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 12.51 && beer.abv <= 14.3) {
 			          $('.beercontainer-8').append("<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 14.31 && beer.abv <= 16.1) {
@@ -261,23 +256,23 @@ $('.answer').click(function() {
 			      });
 			} else if (resultPage == 'heavy') {
 			      $.each(data, function(i, beer) {
-			        if (beer.abv >= 0 && beer.abv <= 1.7) {
+			        if (beer.abv >= 0 && beer.abv <= 9) {
 			          $('.beercontainer-1').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 1.71 && beer.abv <= 3.5) {
+			        } else if (beer.abv >= 9 && beer.abv <= 13) {
 			          $('.beercontainer-2').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 3.51 && beer.abv <= 5.3) {
+			        } else if (beer.abv >= 13.1 && beer.abv <= 15) {
 			          $('.beercontainer-3').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 5.31 && beer.abv <= 7) {
+			        } else if (beer.abv >= 15.1 && beer.abv <= 16) {
 			          $('.beercontainer-4').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 7.1 && beer.abv <= 8.8) {
+			        } else if (beer.abv >= 16.1 && beer.abv <= 17) {
 			          $('.beercontainer-5').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 8.81 && beer.abv <= 10.6) {
+			        } else if (beer.abv >= 17.1 && beer.abv <= 18) {
 			          $('.beercontainer-6').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 10.61 && beer.abv <= 12.5) {
-			          $(".beercontainer-7 ").append(" < div > " + beer.nameOfBeer + " < /div");
-			        } else if (beer.abv >= 12.51 && beer.abv <= 14.3) {
+			        } else if (beer.abv >= 18.1 && beer.abv <= 19) {
+			          $(".beercontainer-7 ").append("<div> " + beer.nameOfBeer + "</div");
+			        } else if (beer.abv >= 19.1 && beer.abv <= 20) {
 			          $('.beercontainer-8').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 14.31 && beer.abv <= 16.1) {
+			        } else if (beer.abv >= 20.1 && beer.abv <= 20) {
 			          $('.beercontainer-9').append("<div>" + beer.nameOfBeer + "</div");
 			        } else {
 			          $('.beercontainer-10').append("<div>" + beer.nameOfBeer + "</div");
