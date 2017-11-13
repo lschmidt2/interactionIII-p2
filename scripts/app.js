@@ -214,11 +214,11 @@ $('.answer').click(function() {
 			          $('.beercontainer-2').append("<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 2.1 && beer.abv <= 3) {
 			          $('.beercontainer-3').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 5.1 && beer.abv <= 6) {
+			        } else if (beer.abv >= 3 && beer.abv <= 4) {
 			          $('.beercontainer-4').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 6.1 && beer.abv <= 7) {
+			        } else if (beer.abv >= 4.1 && beer.abv <= 6) {
 			          $('.beercontainer-5').append("<div>" + beer.nameOfBeer + "</div");
-			        } else if (beer.abv >= 7.1 && beer.abv <= 8) {
+			        } else if (beer.abv >= 6.1 && beer.abv <= 8) {
 			          $('.beercontainer-6').append("<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 8.1 && beer.abv <= 11.5) {
 			          $(".beercontainer-7 ").append("<div> " + beer.nameOfBeer + "</div");
@@ -233,7 +233,7 @@ $('.answer').click(function() {
 			} else if (resultPage == 'medium') {
 			      $.each(data, function(i, beer) {
 			        if (beer.abv >= 0 && beer.abv <= 1.7) {
-			          $('.beercontainer-1').append("<div>" + beer.nameOfBeer + "</div");
+			          $('.beercontainer-1').append("<div class='abvresults'>ABV 0-1</div>" , "<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 1.71 && beer.abv <= 3.5) {
 			          $('.beercontainer-2').append("<div>" + beer.nameOfBeer + "</div");
 			        } else if (beer.abv >= 3.51 && beer.abv <= 5.3) {
